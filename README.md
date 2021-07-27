@@ -275,6 +275,17 @@ console.log(false || false); // false
 
 26. Operador ternário
 
+- [Secao-02-Tipos-de-dado-e-operadores-logicos/26-Operador-ternario.js](Secao-02-Tipos-de-dado-e-operadores-logicos/26-Operador-ternario.js)
+
+```javascript
+console.log(5 > 2 ? 'É sim' : 'É não'); // É sim
+
+console.log(false ? 5 : 4); // 4
+
+console.log("Matheus" == "Matheus" ? "Olá, Matheus!" : "Não é o Matheus!"); // Olá, Matheus!
+
+```
+
 27. Conhecendo os empty values
 
 28. Conversão automática de valor
