@@ -123,6 +123,25 @@ number
 
 19. Conhecendo os special numbers
 
+- [Secao-02-Tipos-de-dado-e-operadores-logicos/19-Conhecendo-os-special-numbers.js](Secao-02-Tipos-de-dado-e-operadores-logicos/19-Conhecendo-os-special-numbers.js)
+
+```javascript
+console.log(Infinity);
+console.log(-Infinity);
+console.log(NaN);
+console.log(typeof Infinity);
+console.log(typeof -Infinity);
+console.log(typeof NaN);
+/*
+Infinity
+-Infinity
+NaN
+number
+number
+number
+*/
+```
+
 20. Tipo de dado: string
 
 21. Mais sobre strings
