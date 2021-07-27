@@ -322,7 +322,29 @@ Teste 1: Questionário sobre tipos de dados
 
 ## <a name="parte3">3 - Seção 03: Exercícios sobre tipos de dados</a>
 
+30. Introdução da seção
 
+31. Exercício 01: explicação
+
+32. Exercício 01: solução
+
+33. Exercício 02: explicação
+
+34. Exercício 02: solução
+
+35. Exercício 03: explicação
+
+36. Exercício 03: solução
+
+37. Exercício 04: explicação
+
+38. Exercício 04: solução
+
+39. Exercício 05: explicação
+
+40. Exercício 05: solução
+
+41. Conclusão da seção
 
 [Voltar ao Índice](#indice)
 
