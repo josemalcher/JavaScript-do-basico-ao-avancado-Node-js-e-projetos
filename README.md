@@ -32,7 +32,33 @@ Aprenda tudo sobre JavaScript(ES6+), lógica de prog., orientação a objetos, c
 
 ## <a name="parte1">1 - Seção 01: Introdução</a>
 
+1. Apresentação do curso
 
+2. Introdução
+
+3. O que é JavaScript?
+
+4. Onde o JavaScript é utilizado?
+
+5. Fazendo download do VSCode (editor de texto utilizado no curso)
+
+6. Como executar JS no navegador por arquivo
+
+7. Como executar JS diretamente no navegador
+
+8. Maneira alterantiva de executar JS
+
+9. Como pesquisar problemas/dúvidas de código no Stackoverflow
+
+10. Como pesquisar problemas/dúvidas de código no Google
+
+11. Minha sugestão para você acompanhar o curso
+
+12. Slides do Curso
+
+13. Conclusão da seção
+
+14. Arquivos do curso
 
 [Voltar ao Índice](#indice)
 
@@ -41,7 +67,49 @@ Aprenda tudo sobre JavaScript(ES6+), lógica de prog., orientação a objetos, c
 
 ## <a name="parte2">2 - Seção 02: Tipos de dado e operadores lógicos</a>
 
+15. Introdução da seção
 
+16. O que são tipos de dados?
+
+17. Tipo de dado: number
+
+```javascript
+console.log(typeof 5)
+console.log(typeof 12.6)
+console.log(typeof -12)
+/*
+number
+number
+number
+*/
+
+```
+
+18. Operações aritméticas com number
+
+19. Conhecendo os special numbers
+
+20. Tipo de dado: string
+
+21. Mais sobre strings
+
+22. Tipo de dado: boolean
+
+23. Comparações com booleans
+
+24. Operadores lógicos: teoria
+
+25. Operadores lógicos: prática
+
+26. Operador ternário
+
+27. Conhecendo os empty values
+
+28. Conversão automática de valor
+
+29. Conclusão da seção
+
+Teste 1: Questionário sobre tipos de dados
 
 [Voltar ao Índice](#indice)
 
