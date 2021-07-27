@@ -196,6 +196,32 @@ O meu nome é Matheus.
 
 22. Tipo de dado: boolean
 
+- [Secao-02-Tipos-de-dado-e-operadores-logicos/22-Tipo-de-dado-boolean.js](Secao-02-Tipos-de-dado-e-operadores-logicos/22-Tipo-de-dado-boolean.js)
+
+```javascript
+console.log(typeof true);
+console.log(typeof false);
+console.log(typeof (10 > 2));
+console.log(typeof (5 > 200));
+/*
+boolean
+boolean
+boolean
+boolean
+* */
+console.log(true);
+console.log(false);
+console.log((10 > 2));
+console.log((5 > 200));
+/*
+true
+false
+true
+false
+*/
+
+```
+
 23. Comparações com booleans
 
 24. Operadores lógicos: teoria
