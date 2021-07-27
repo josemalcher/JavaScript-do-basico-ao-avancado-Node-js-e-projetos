@@ -73,6 +73,8 @@ Aprenda tudo sobre JavaScript(ES6+), lógica de prog., orientação a objetos, c
 
 17. Tipo de dado: number
 
+- [Secao-02-Tipos-de-dado-e-operadores-logicos/17-Tipo-de-dado-number.js](Secao-02-Tipos-de-dado-e-operadores-logicos/17-Tipo-de-dado-number.js)
+
 ```javascript
 console.log(typeof 5)
 console.log(typeof 12.6)
@@ -86,6 +88,38 @@ number
 ```
 
 18. Operações aritméticas com number
+
+- [Secao-02-Tipos-de-dado-e-operadores-logicos/18-Operacoes-aritmeticas-com-number.js](Secao-02-Tipos-de-dado-e-operadores-logicos/18-Operacoes-aritmeticas-com-number.js)
+
+```javascript
+console.log((2 + 3));
+console.log((5 - 12));
+console.log((4 * 4));
+console.log((5 / 3));
+console.log((20 % 2));
+console.log((21 % 2));
+console.log(typeof (2 + 3));
+console.log(typeof (5 - 12));
+console.log(typeof (4 * 4));
+console.log(typeof (5 / 3));
+console.log(typeof (20 % 2));
+console.log(typeof (21 % 2));
+/*
+5
+-7
+16
+1.6666666666666667
+0
+1
+number
+number
+number
+number
+number
+number
+*/
+
+```
 
 19. Conhecendo os special numbers
 
