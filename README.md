@@ -288,6 +288,14 @@ console.log("Matheus" == "Matheus" ? "Olá, Matheus!" : "Não é o Matheus!"); /
 
 27. Conhecendo os empty values
 
+- [Secao-02-Tipos-de-dado-e-operadores-logicos/27-Conhecendo-os-empty-values.js](Secao-02-Tipos-de-dado-e-operadores-logicos/27-Conhecendo-os-empty-values.js)
+
+```javascript
+console.log(null); // null
+console.log(undefined); // undefined
+
+```
+
 28. Conversão automática de valor
 
 29. Conclusão da seção
