@@ -252,6 +252,8 @@ true
 
 24. Operadores lógicos: teoria
 
+![img/operadores-logicos.png](img/operadores-logicos.png)
+
 25. Operadores lógicos: prática
 
 26. Operador ternário
