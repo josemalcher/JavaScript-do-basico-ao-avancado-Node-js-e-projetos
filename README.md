@@ -224,6 +224,32 @@ false
 
 23. Comparações com booleans
 
+- [Secao-02-Tipos-de-dado-e-operadores-logicos/23-Comparacoes-com-booleans.js](Secao-02-Tipos-de-dado-e-operadores-logicos/23-Comparacoes-com-booleans.js)
+
+```javascript
+console.log(1 > 2);
+console.log(5 < 10);
+console.log(3 >= 3);
+console.log(5 <= 4);
+/*
+false
+true
+true
+false
+*/
+console.log(5 == 4);
+console.log('Matheus' != 'Matheus');
+console.log(3 === '3');
+console.log(4 === 4);
+/*
+false
+false
+false
+true
+*/
+
+```
+
 24. Operadores lógicos: teoria
 
 25. Operadores lógicos: prática
