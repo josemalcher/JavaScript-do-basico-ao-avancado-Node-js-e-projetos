@@ -298,6 +298,19 @@ console.log(undefined); // undefined
 
 28. Conversão automática de valor
 
+- [Secao-02-Tipos-de-dado-e-operadores-logicos/28-Conversao-automatica-de-valor.js](Secao-02-Tipos-de-dado-e-operadores-logicos/28-Conversao-automatica-de-valor.js)
+
+```javascript
+console.log(("123" + 4)); // 1234
+console.log(("30" - 20)); // 10
+console.log(("ausd" * 3));// NaN
+
+console.log(typeof ("123" + 4)); // string
+console.log(typeof ("30" - 20)); // number
+console.log(typeof ("ausd" * 3));// number
+
+```
+
 29. Conclusão da seção
 
 Teste 1: Questionário sobre tipos de dados
