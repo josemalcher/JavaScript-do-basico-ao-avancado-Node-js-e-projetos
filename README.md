@@ -328,21 +328,76 @@ Teste 1: Questionário sobre tipos de dados
 
 32. Exercício 01: solução
 
+- [Secao-03-Exercicios-sobre-tipos-de-dados/32-Exercicio-01.js](Secao-03-Exercicios-sobre-tipos-de-dados/32-Exercicio-01.js)
+
+```javascript
+console.log("Hello World!");
+console.log('Meu nome é José');
+console.log(`Este aqui é o template literals`);
+/*
+Hello World!
+Meu nome é José
+Este aqui é o template literals
+*/
+
+```
+
 33. Exercício 02: explicação
 
 34. Exercício 02: solução
+
+- [Secao-03-Exercicios-sobre-tipos-de-dados/34-Exercicio-02.js](Secao-03-Exercicios-sobre-tipos-de-dados/34-Exercicio-02.js)
+
+```javascript
+console.log(235); // 235
+console.log(13.5); // 13.5
+console.log((3 * (12 + 4)) / 8); // 6
+
+```
 
 35. Exercício 03: explicação
 
 36. Exercício 03: solução
 
+- [Secao-03-Exercicios-sobre-tipos-de-dados/36-Exercicio-03.js](Secao-03-Exercicios-sobre-tipos-de-dados/36-Exercicio-03.js)
+
+```javascript
+console.log(12 > 5);
+console.log(4 <= 4);
+console.log("Matheus" != "João");
+/*
+true
+true
+true
+*/
+```
+
+
 37. Exercício 04: explicação
 
 38. Exercício 04: solução
 
+- [Secao-03-Exercicios-sobre-tipos-de-dados/38-Exercicio-04.js](Secao-03-Exercicios-sobre-tipos-de-dados/38-Exercicio-04.js)
+
+```javascript
+console.log(3 == 3 && 4 > 1); // true
+console.log(4 <= 2 || "Matheus" == "Pedro"); // false
+console.log(!(2 === 2)); // false
+
+```
+
+
 39. Exercício 05: explicação
 
 40. Exercício 05: solução
+
+- [Secao-03-Exercicios-sobre-tipos-de-dados/40-Exercicio-05.js](Secao-03-Exercicios-sobre-tipos-de-dados/40-Exercicio-05.js)
+
+```javascript
+console.log(415 * "Não é numero");
+// NaN
+
+```
 
 41. Conclusão da seção
 
