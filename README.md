@@ -668,6 +668,22 @@ while(z > 0) {
 
 60. Estrutura de repetição: do while
 
+- [Secao-04-Estruturas-de-Programacao/60-Estrutura-de-repeticao-do-while.js](Secao-04-Estruturas-de-Programacao/60-Estrutura-de-repeticao-do-while.js)
+
+```javascript
+let x = 100;
+
+do {
+    console.log(x/2);
+    x = x - 5;
+} while(x >= 0);
+
+
+// while() {
+
+// }
+```
+
 61. Estrutura de repetição: for
 
 62. O que é identação?
