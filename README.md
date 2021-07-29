@@ -447,6 +447,19 @@ console.log(um + dois + tres); // 6
 
 45. Outras forma de declarar variáveis
 
+- [Secao-04-Estruturas-de-Programacao/45-Outras-forma-de-declarar-variaveis.js](Secao-04-Estruturas-de-Programacao/45-Outras-forma-de-declarar-variaveis.js)
+
+```javascript
+var nome = "Malcher jr";
+const ip = "127.0.0.1";
+
+console.log(nome); // Malcher jr
+console.log(ip); // 127.0.0.1
+
+ip = 'asdihus';
+// TypeError: Assignment to constant variable.
+```
+
 46. Convenção no nome de variáveis
 
 47. Palavras reservadas da linguagem JavaScript
