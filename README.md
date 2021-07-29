@@ -853,6 +853,19 @@ switch(nome) {
 
 68. Como escrever comentários
 
+```javascript
+// COmentário de uma linha
+
+/*
+  Comentário
+  de
+  múltiplas
+  linhas
+*/
+
+// console.log("Teste");
+```
+
 69. Conclusão da seção
 
 Teste 2: Questionário sobre lógica de programação
