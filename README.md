@@ -823,6 +823,32 @@ for(let i = 10; i > 0; i--) {
 
 66. Estrutura de controle: switch
 
+- [Secao-04-Estruturas-de-Programacao/66-Estrutura-de-controle-switch.js](Secao-04-Estruturas-de-Programacao/66-Estrutura-de-controle-switch.js)
+
+```javascript
+let nome = "Malcher";
+
+switch(nome) {
+    case "Malcher":
+        console.log("O Nome é Malcher");
+        break;
+    case "João":
+        console.log("O nome é João");
+        break;
+    default:
+        console.log("O nome não foi encontrado");
+        break;
+}
+// O Nome é Malcher
+
+// if(nome == "Malcher") {
+//   console.log("O Nome é Malcher");
+// } else {
+//   console.log("O nome não foi encontrado");
+// }
+
+```
+
 67. Um pouco mais sobre declaração de variáveis
 
 68. Como escrever comentários
