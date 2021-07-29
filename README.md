@@ -737,6 +737,36 @@ if (x == 0 && y == 0) {
 
 63. Utilizando break
 
+- [Secao-04-Estruturas-de-Programacao/63-Utilizando-break.js](Secao-04-Estruturas-de-Programacao/63-Utilizando-break.js)
+
+```javascript
+let nome = "Matheus";
+
+for(let i = 0; i < 10; i = i + 1) {
+
+    if(i == 3) {
+        nome = "João";
+    }
+
+    if(i == 5 && nome == "João") {
+        console.log("O nome é João, pode parar");
+        break;
+    }
+
+    console.log(i);
+
+}
+/*
+0
+1
+2
+3
+4
+O nome é João, pode parar
+*/
+
+```
+
 64. Utilizando continue
 
 65. Incrementação resumida
