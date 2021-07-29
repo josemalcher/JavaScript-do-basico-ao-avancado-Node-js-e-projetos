@@ -482,6 +482,20 @@ let seu_nome = 'teste';
 
 47. Palavras reservadas da linguagem JavaScript
 
+- [Secao-04-Estruturas-de-Programacao/47-Palavras-reservadas-da-linguagem-JavaScript.js](Secao-04-Estruturas-de-Programacao/47-Palavras-reservadas-da-linguagem-JavaScript.js)
+
+```javascript
+//let if = 'Teste'; // SyntaxError: Unexpected token 'if'
+//let function = 'teste'; // SyntaxError: Unexpected token 'function'
+
+let functionTest = 'teste';
+let function1 = 'teste2';
+
+console.log(functionTest);// teste
+console.log(function1);// teste2
+
+```
+
 48. O ambiente do JavaScript
 
 49. As estruturas das funções
