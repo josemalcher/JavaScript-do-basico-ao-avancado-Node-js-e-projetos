@@ -641,6 +641,31 @@ Testando
 
 59. Estrutura de repetição: while
 
+- [Secao-04-Estruturas-de-Programacao/59-Estrutura-de-repeticao-while.js](Secao-04-Estruturas-de-Programacao/59-Estrutura-de-repeticao-while.js)
+
+```javascript
+let x = 10;
+
+while(x > 0) {
+    console.log("O x é " + x);
+    x = x - 1;
+}
+
+let y = 0;
+
+while(y <= 10) {
+    console.log(y);
+    y = y + 1;
+}
+
+let z = 10;
+
+while(z > 0) {
+    console.log(z);
+    z--;
+}
+```
+
 60. Estrutura de repetição: do while
 
 61. Estrutura de repetição: for
