@@ -769,6 +769,34 @@ O nome é João, pode parar
 
 64. Utilizando continue
 
+- [Secao-04-Estruturas-de-Programacao/64-Utilizando-continue.js](Secao-04-Estruturas-de-Programacao/64-Utilizando-continue.js)
+
+```javascript
+for(let i = 10; i > 0; i = i - 1) {
+
+    if(i % 2 == 0) {
+        console.log("Caiu no continue");
+        continue;
+    }
+
+    console.log(i);
+
+}
+/*
+Caiu no continue
+9
+Caiu no continue
+7
+Caiu no continue
+5
+Caiu no continue
+3
+Caiu no continue
+1
+*/
+
+```
+
 65. Incrementação resumida
 
 66. Estrutura de controle: switch
