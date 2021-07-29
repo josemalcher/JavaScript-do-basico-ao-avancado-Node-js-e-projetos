@@ -462,6 +462,24 @@ ip = 'asdihus';
 
 46. Convenção no nome de variáveis
 
+- [Secao-04-Estruturas-de-Programacao/46-Convencao-no-nome-de-variaveis.js](Secao-04-Estruturas-de-Programacao/46-Convencao-no-nome-de-variaveis.js)
+
+```javascript
+// let 3nome = 'teste'; // SyntaxError: Invalid or unexpected token
+
+let nome3 = 'teste';
+let $nome = 'teste2';
+let _nome = 'teste3';
+
+// let @nome = 'teste'; // SyntaxError: Invalid or unexpected token
+// let !nome = 'teste'; // SyntaxError: Unexpected token '!'
+
+let Nome = 'teste';
+let seuNome = 'teste';
+let seu_nome = 'teste';
+
+```
+
 47. Palavras reservadas da linguagem JavaScript
 
 48. O ambiente do JavaScript
