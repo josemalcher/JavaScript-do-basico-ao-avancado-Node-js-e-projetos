@@ -799,6 +799,28 @@ Caiu no continue
 
 65. Incrementação resumida
 
+- [Secao-04-Estruturas-de-Programacao/65-Incrementacao-resumida.js](Secao-04-Estruturas-de-Programacao/65-Incrementacao-resumida.js) 
+```javascript
+let numero = 5;
+
+while(numero < 50) {
+
+    console.log(numero);
+
+    numero += 10;
+
+}
+
+for(let i = 0; i < 10; i++) {
+    console.log("O i é " + i);
+}
+
+for(let i = 10; i > 0; i--) {
+    console.log("O i é " + i);
+}
+
+```
+
 66. Estrutura de controle: switch
 
 67. Um pouco mais sobre declaração de variáveis
