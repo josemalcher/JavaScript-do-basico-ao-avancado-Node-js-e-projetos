@@ -705,6 +705,36 @@ A soma de i com 2 é: 11
 
 62. O que é identação?
 
+- [Secao-04-Estruturas-de-Programacao/62-O-que-e-identacao.js](Secao-04-Estruturas-de-Programacao/62-O-que-e-identacao.js)
+
+```javascript
+let x = 0;
+let y = 0;
+
+if (x == 0 && y == 0) {
+
+    let z = 5;
+
+    if (z > 2) {
+
+        console.log(z);
+
+        for (i = 0; i < 5; i = i + 1) {
+
+            console.log(i);
+
+            if (i == 2) {
+                console.log("i é = 2");
+            }
+
+        }
+
+    }
+
+}
+
+```
+
 63. Utilizando break
 
 64. Utilizando continue
