@@ -868,7 +868,7 @@ switch(nome) {
 
 69. Conclusão da seção
 
-Teste 2: Questionário sobre lógica de programação
+Teste 2: Questionário sobre lógica de programação - ok
 
 [Voltar ao Índice](#indice)
 
@@ -877,7 +877,49 @@ Teste 2: Questionário sobre lógica de programação
 
 ## <a name="parte5">5 - Seção 05: Exercícios sobre estrutura de programação</a>
 
+70. Introdução da seção
 
+71. Exercício 06: explicação
+
+72. Exercício 06: solução
+
+73. Exercício 07: explicação
+
+74. Exercício 07: solução
+
+75. Exercício 08: explicação
+
+76. Exercício 08: solução
+
+77. Exercício 09: explicação
+
+78. Exercício 09: solução
+
+79. Exercício 10: explicação
+
+80. Exercício 10: solução
+
+81. Exercício 11: explicação
+
+82. Exercício 11: solução
+
+83. Exercício 12: explicação
+
+84. Exercício 12: solução
+
+85. Exercício 13: explicação
+
+86. Exercício 13: solução
+
+87. Exercício 14: explicação
+
+88. Exercício 14: solução
+
+89. Exercício 15: explicação
+
+90. Exercício 15: solução
+
+91. Conclusão da seção
 
 [Voltar ao Índice](#indice)
 
