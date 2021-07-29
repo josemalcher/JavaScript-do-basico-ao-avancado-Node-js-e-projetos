@@ -594,6 +594,20 @@ if((nome == "Matheus" && idade > 30) || passaporte == true) {
 
 56. Estrutura de controle: else
 
+- [Secao-04-Estruturas-de-Programacao/56-Estrutura-de-controle-else.js](Secao-04-Estruturas-de-Programacao/56-Estrutura-de-controle-else.js)
+
+```javascript
+let velocidade = 70;
+
+if(velocidade <= 80) {
+    console.log("Não foi multado");
+} else {
+    console.log("Foi multado!");
+}
+// Não foi multado
+
+```
+
 57. Estrutura de controle: else if
 
 58. O que são estruturas de repetição?
