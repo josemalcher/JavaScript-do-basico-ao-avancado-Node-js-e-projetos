@@ -519,6 +519,14 @@ console.log(`O seu nome é ${nome}`);
 
 51. Função built in: alert
 
+- [Secao-04-Estruturas-de-Programacao/51-Funcao-built-in-alert.js](Secao-04-Estruturas-de-Programacao/51-Funcao-built-in-alert.js)
+
+```javascript
+alert("Esta é a mensagem!");
+alert("Esta é a mensagem 2!");
+
+```
+
 52. Função built in: Math
 
 53. Função built in: console.log
