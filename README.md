@@ -686,6 +686,23 @@ do {
 
 61. Estrutura de repetição: for
 
+- [Secao-04-Estruturas-de-Programacao/61-Estrutura-de-repeticao-for.js](Secao-04-Estruturas-de-Programacao/61-Estrutura-de-repeticao-for.js)
+
+```javascript
+for(let i = 0; i < 100; i = i + 3) {
+
+    console.log(`A soma de i com 2 é: ${i + 2}`);
+
+}
+/*
+A soma de i com 2 é: 2
+A soma de i com 2 é: 5
+A soma de i com 2 é: 8
+A soma de i com 2 é: 11
+(...)
+ */
+```
+
 62. O que é identação?
 
 63. Utilizando break
