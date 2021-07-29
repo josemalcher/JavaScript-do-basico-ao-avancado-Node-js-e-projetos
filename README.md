@@ -529,6 +529,23 @@ alert("Esta é a mensagem 2!");
 
 52. Função built in: Math
 
+- [Secao-04-Estruturas-de-Programacao/52-Funcao-built-in-Math.js](Secao-04-Estruturas-de-Programacao/52-Funcao-built-in-Math.js)
+
+```javascript
+let maior = Math.max(6,12,28,55,8);
+console.log(maior); // 55
+
+let menor = Math.min(6,12,28,55,8);
+console.log(menor); // 6
+
+let arredondar = Math.round(5.2934723);
+console.log(arredondar); // 5
+
+let arredondarParaCima = Math.ceil(5.2934723);
+console.log(arredondarParaCima); 6
+
+```
+
 53. Função built in: console.log
 
 54. O que são estruturas de controle?
