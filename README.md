@@ -502,6 +502,21 @@ console.log(function1);// teste2
 
 50. Função built in: prompt
 
+- [Secao-04-Estruturas-de-Programacao/50-Funcao-built-in-prompt.js](Secao-04-Estruturas-de-Programacao/50-Funcao-built-in-prompt.js)
+
+```javascript
+let idade = prompt("Qual a sua idade?");
+
+console.log(idade);
+// 20
+
+let nome = prompt("Qual o seu nome?");
+
+console.log(`O seu nome é ${nome}`);
+// O seu nome é jose
+
+```
+
 51. Função built in: alert
 
 52. Função built in: Math
