@@ -1099,7 +1099,37 @@ if (divisoes == 2) {
 
 ## <a name="parte6">6 - Seção 06: Funções</a>
 
+92. Introdução da seção
 
+93. O que são funções?
+
+94. Definindo uma função: teoria
+
+95. Definindo uma função: prática
+
+96. Mais sobre funções
+
+97. O escopo das funções
+
+98. Mais sobre escopo
+
+99. Escopo aninhado
+
+100. Arrow functions
+
+101. Mais sobre arrow functions
+
+102. Argumentos opcionais
+
+103. Argumentos com valor default
+
+104. Closure
+
+105. Recursion
+
+106. Conclusão da seção
+
+Teste 3: Questionário sobre funções
 
 [Voltar ao Índice](#indice)
 
