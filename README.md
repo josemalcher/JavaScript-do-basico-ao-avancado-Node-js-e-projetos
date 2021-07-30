@@ -1213,6 +1213,33 @@ console.log(x);
 
 99. Escopo aninhado
 
+- [Secao-06-Funcoes/99-Escopo-aninhado.js](Secao-06-Funcoes/99-Escopo-aninhado.js)
+
+```javascript
+let a = 10;
+
+function multiplicar(x, y) {
+    let a = x * y;
+    if (a > 10) {
+        let a = 0;
+        a++;
+        console.log(a)
+    }
+    console.log(a)
+}
+
+console.log(a);
+multiplicar(3, 10);
+
+
+/*
+    10
+    1
+    30
+*/
+
+```
+
 100. Arrow functions
 
 101. Mais sobre arrow functions
