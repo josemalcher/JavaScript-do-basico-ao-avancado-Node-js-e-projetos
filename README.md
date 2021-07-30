@@ -1176,6 +1176,20 @@ console.log(podeDirigir(17,false));// Não pode dirigir
 
 97. O escopo das funções
 
+- [Secao-06-Funcoes/97-O-escopo-das-funcoes.js](Secao-06-Funcoes/97-O-escopo-das-funcoes.js)
+
+```javascript
+let y = 10;
+
+function imprimir() {
+    let y = 150;
+    console.log(y);
+}
+imprimir(); // 150
+console.log(y); // 10
+
+```
+
 98. Mais sobre escopo
 
 99. Escopo aninhado
