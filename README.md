@@ -1282,6 +1282,44 @@ console.log(multiplicarPorDois2(4)); // 8
 
 102. Argumentos opcionais
 
+- [Secao-06-Funcoes/102-Argumentos-opcionais.js](Secao-06-Funcoes/102-Argumentos-opcionais.js)
+
+```javascript
+function soma(a, b) {
+    if (a === undefined || b === undefined) {
+        console.log('Essa Função precisa ter dois argumentos');
+    }else{
+        return a + b;
+    }
+}
+
+console.log(soma(1));
+console.log(soma(1,10));
+
+/*
+Essa Função precisa ter dois argumentos
+undefined
+11
+
+*/
+
+function saudacao(nome, idade) {
+    if (idade === undefined) {
+        console.log('Olá ' + nome);
+    }else{
+        console.log('Olá ' + nome + ' voce tem ' + idade + ' anos');
+    }
+}
+
+saudacao('Malcher');
+saudacao('Malcher', 36);
+/*
+Olá Malcher
+Olá Malcher voce tem 36 anos
+*/
+
+```
+
 103. Argumentos com valor default
 
 104. Closure
