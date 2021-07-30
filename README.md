@@ -1242,6 +1242,27 @@ multiplicar(3, 10);
 
 100. Arrow functions
 
+- [Secao-06-Funcoes/100-Arrow-functions.js](Secao-06-Funcoes/100-Arrow-functions.js)
+
+```javascript
+let consleTeste = () => {
+    console.log('Olá Mundo');
+}
+consleTeste();
+
+let soma = (a , b) => {
+    return a + b;
+}
+
+console.log(soma(10, 20));
+
+/*
+    Olá Mundo
+    30
+*/
+
+```
+
 101. Mais sobre arrow functions
 
 102. Argumentos opcionais
