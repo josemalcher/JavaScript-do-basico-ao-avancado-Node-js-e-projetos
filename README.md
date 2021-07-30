@@ -1322,6 +1322,21 @@ Olá Malcher voce tem 36 anos
 
 103. Argumentos com valor default
 
+- [Secao-06-Funcoes/103-Argumentos-com-valor-default.js](Secao-06-Funcoes/103-Argumentos-com-valor-default.js)
+
+```javascript
+function potencia(base, exp = 2) {
+    return Math.pow(base, exp);
+}
+
+console.log(potencia(2)); // 4
+
+console.log(potencia(2, 2)); // 4
+
+console.log(potencia(2, 3)); // 8
+
+```
+
 104. Closure
 
 105. Recursion
