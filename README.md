@@ -1192,6 +1192,25 @@ console.log(y); // 10
 
 98. Mais sobre escopo
 
+- [Secao-06-Funcoes/98-Mais-sobre-escopo.js](Secao-06-Funcoes/98-Mais-sobre-escopo.js)
+
+```javascript
+let x = 10;
+
+if (x > 5) {
+    let x = 200;
+    x++;
+    console.log(x);
+}
+console.log(x);
+
+/*
+    201
+    10
+*/
+
+```
+
 99. Escopo aninhado
 
 100. Arrow functions
