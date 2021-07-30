@@ -1403,7 +1403,7 @@ recursao(55);
 
 106. Conclusão da seção
 
-Teste 3: Questionário sobre funções
+Teste 3: Questionário sobre funções - ok
 
 [Voltar ao Índice](#indice)
 
@@ -1412,6 +1412,49 @@ Teste 3: Questionário sobre funções
 
 ## <a name="parte7">7 - Seção 07: Exercícios sobre funções</a>
 
+107. Introdução da seção
+
+108. Exercício 16: explicação
+
+109. Exercício 16: solução
+
+110. Exercício 17: explicação
+
+111. Exercício 17: solução
+
+112. Exercício 18: explicação
+
+113. Exercício 18: solução
+
+114. Exercício 19: explicação
+
+115. Exercício 19: solução
+
+116. Exercício 20: explicação
+
+117. Exercício 20: solução
+
+118. Exercício 21: explicação
+
+119. Exercício 21: solução
+
+120. Exercício 22: explicação
+
+121. Exercício 22: solução
+
+122. Exercício 23: explicação
+
+123. Exercício 23: solução
+
+124. Exercício 24: explicação
+
+125. Exercício 24: solução
+
+126. Exercício 25: explicação
+
+127. Exercício 25: solução
+
+128. Conclusão da seção
 
 
 [Voltar ao Índice](#indice)
