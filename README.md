@@ -883,42 +883,213 @@ Teste 2: Questionário sobre lógica de programação - ok
 
 72. Exercício 06: solução
 
+- [Secao-05-Exercicios-sobre-estrutura-de-programacao/72-Exercicio-06.js](Secao-05-Exercicios-sobre-estrutura-de-programacao/72-Exercicio-06.js)
+
+```javascript
+let nome = "Malcher";
+let idade = 36;
+let cnh = true;
+
+console.log(typeof nome);
+console.log(typeof idade);
+console.log(typeof cnh);
+/*
+string
+number
+boolean
+*/
+
+```
+
 73. Exercício 07: explicação
 
 74. Exercício 07: solução
+
+- [Secao-05-Exercicios-sobre-estrutura-de-programacao/74-Exercicio-07.js](Secao-05-Exercicios-sobre-estrutura-de-programacao/74-Exercicio-07.js)
+
+```javascript
+let idade = 30;
+
+if(idade >= 18) {
+    console.log("Pode entrar!");
+}
+//Pode entrar!
+
+```
 
 75. Exercício 08: explicação
 
 76. Exercício 08: solução
 
+- [Secao-05-Exercicios-sobre-estrutura-de-programacao/76-Exercicio-08.js](Secao-05-Exercicios-sobre-estrutura-de-programacao/76-Exercicio-08.js)
+
+```javascript
+const nome = "Malcher";
+
+if(nome == "Malcher") {
+    console.log(`Olá ${nome}, tudo bem?`);
+}
+// Olá Malcher, tudo bem?
+```
+
 77. Exercício 09: explicação
 
 78. Exercício 09: solução
+
+- [Secao-05-Exercicios-sobre-estrutura-de-programacao/78-Exercicio-09.js](Secao-05-Exercicios-sobre-estrutura-de-programacao/78-Exercicio-09.js)
+
+```javascript
+const num = 18;
+
+console.log(Math.pow(2,2)); // 4
+console.log(Math.pow(3,2)); // 9
+console.log(Math.pow(num,2)); // 324
+
+```
 
 79. Exercício 10: explicação
 
 80. Exercício 10: solução
 
+- [Secao-05-Exercicios-sobre-estrutura-de-programacao/80-Exercicio-10.js](Secao-05-Exercicios-sobre-estrutura-de-programacao/80-Exercicio-10.js)
+
+```javascript
+let vel = 55;
+
+if(vel > 80) {
+    console.log("Levou multa");
+} else {
+    console.log("Não levou multa");
+}
+// Não levou multa
+```
+
 81. Exercício 11: explicação
 
 82. Exercício 11: solução
+
+- [Secao-05-Exercicios-sobre-estrutura-de-programacao/82-Exercicio-11.js](Secao-05-Exercicios-sobre-estrutura-de-programacao/82-Exercicio-11.js)
+
+```javascript
+let idade = 23;
+let cnh = false;
+
+if (idade >= 18 && cnh == true) {
+    console.log("Sim, pode dirigir");
+} else if (idade >= 18 && cnh == false) {
+    console.log("Não pode dirigir, mas pode fazer a CNH");
+} else {
+    console.log("Não pode dirigir");
+}
+// Não pode dirigir, mas pode fazer a CNH
+```
 
 83. Exercício 12: explicação
 
 84. Exercício 12: solução
 
+- [Secao-05-Exercicios-sobre-estrutura-de-programacao/84-Exercicio-12.js](Secao-05-Exercicios-sobre-estrutura-de-programacao/84-Exercicio-12.js)
+
+```javascript
+let i = 0;
+
+while(i <= 10) {
+    console.log(i);
+
+    i++;
+}
+/*
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+*/
+
+```
+
 85. Exercício 13: explicação
 
 86. Exercício 13: solução
+
+- [Secao-05-Exercicios-sobre-estrutura-de-programacao/86-Exercicio-13.js](Secao-05-Exercicios-sobre-estrutura-de-programacao/86-Exercicio-13.js)
+
+```javascript
+for(let i = 100; i >= 50; i--) {
+    console.log(i);
+}
+/*
+100
+99
+98
+97
+96
+95
+(...)
+*/
+
+```
 
 87. Exercício 14: explicação
 
 88. Exercício 14: solução
 
+- [Secao-05-Exercicios-sobre-estrutura-de-programacao/88-Exercicio-14.js](Secao-05-Exercicios-sobre-estrutura-de-programacao/88-Exercicio-14.js)
+
+```javascript
+for(let i = 0; i <= 50; i++) {
+
+    if(i % 2 == 0) {
+        console.log(`O numéro ${i} é par`);
+    } else {
+        console.log(`O numéro ${i} é ímpar`);
+    }
+
+}
+/*
+O numéro 0 é par
+O numéro 1 é ímpar
+O numéro 2 é par
+O numéro 3 é ímpar
+O numéro 4 é par
+O numéro 5 é ímpar
+(...)
+*/
+
+```
+
 89. Exercício 15: explicação
 
 90. Exercício 15: solução
 
+- [Secao-05-Exercicios-sobre-estrutura-de-programacao/90-Exercicio-15.js](Secao-05-Exercicios-sobre-estrutura-de-programacao/90-Exercicio-15.js)
+
+```javascript
+let num = 17;
+let divisoes = 0;
+
+for (let i = 1; i <= num; i++) {
+
+    if (num % i == 0) {
+        divisoes++;
+    }
+
+}
+
+if (divisoes == 2) {
+    console.log(`O número ${num} é primo`);
+} else {
+    console.log(`O número ${num} não é primo`);
+}
+
+// O número 17 é primo
+```
 91. Conclusão da seção
 
 [Voltar ao Índice](#indice)
