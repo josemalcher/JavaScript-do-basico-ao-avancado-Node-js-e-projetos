@@ -1142,6 +1142,38 @@ numeroAleatorio(); // 0.5596334748072507
 
 96. Mais sobre funções
 
+- [Secao-06-Funcoes/96-Mais-sobre-funcoes.js](Secao-06-Funcoes/96-Mais-sobre-funcoes.js)
+
+```javascript
+function multiplicarTresNumeros(x,y,z) {
+    return x * y * z;
+}
+
+console.log(multiplicarTresNumeros(2,3,4));
+// 24
+
+const mult = multiplicarTresNumeros(5,4,8);
+
+console.log("O valor de multa é " + mult);
+// O valor de multa é 160
+
+function podeDirigir(idade, cnh) {
+    if(idade >= 18 && cnh == true) {
+        console.log("Pode dirigir");
+    } else {
+        console.log("Não pode dirigir");
+    }
+}
+
+console.log(podeDirigir(19,true));// Pode dirigir
+console.log(podeDirigir(25,true));// Pode dirigir
+console.log(podeDirigir(44,0)); // Não pode dirigir
+console.log(podeDirigir(19,1)); // Pode dirigir
+console.log(podeDirigir(17,false));// Não pode dirigir
+
+
+```
+
 97. O escopo das funções
 
 98. Mais sobre escopo
