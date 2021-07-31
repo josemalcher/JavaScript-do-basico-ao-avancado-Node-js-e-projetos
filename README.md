@@ -1418,41 +1418,226 @@ Teste 3: Questionário sobre funções - ok
 
 109. Exercício 16: solução
 
+- [Secao-07-Exercicios-sobre-funcoes/109-Exercicio-16.js](Secao-07-Exercicios-sobre-funcoes/109-Exercicio-16.js)
+
+```javascript
+function imprimirNoConsole() {
+    console.log('Hello World');
+}
+
+imprimirNoConsole();
+// Hello World
+
+```
+
 110. Exercício 17: explicação
 
 111. Exercício 17: solução
+
+- [Secao-07-Exercicios-sobre-funcoes/111-Exercicio-17.js](Secao-07-Exercicios-sobre-funcoes/111-Exercicio-17.js)
+
+```javascript
+function imprimeIdade(idade) {
+    console.log(`Você tem ${idade} anos`);
+}
+
+imprimeIdade(12);
+imprimeIdade(28);
+imprimeIdade(45);
+/*
+    Você tem 12 anos
+    Você tem 28 anos
+    Você tem 45 anos
+*/
+
+```
 
 112. Exercício 18: explicação
 
 113. Exercício 18: solução
 
+- [Secao-07-Exercicios-sobre-funcoes/113-Exercicio-18.js](Secao-07-Exercicios-sobre-funcoes/113-Exercicio-18.js)
+
+```javascript
+function soma(a,b) {
+    return a + b;
+}
+
+console.log(soma(4,5)); // 9
+console.log(soma(10,20));// 30
+
+```
+
 114. Exercício 19: explicação
 
 115. Exercício 19: solução
+
+- [Secao-07-Exercicios-sobre-funcoes/115-Exercicio-19.js](Secao-07-Exercicios-sobre-funcoes/115-Exercicio-19.js)
+
+```javascript
+function numeroAleatorio(num) {
+    return Math.floor(Math.random() * num) + 1;
+}
+
+console.log(numeroAleatorio(10)); // 9
+console.log(numeroAleatorio(100));// 16
+console.log(numeroAleatorio(50));//  34
+
+```
 
 116. Exercício 20: explicação
 
 117. Exercício 20: solução
 
+- [Secao-07-Exercicios-sobre-funcoes/117-Exercicio-20.js](Secao-07-Exercicios-sobre-funcoes/117-Exercicio-20.js)
+
+```javascript
+function podeEntrarNaAuto(idade) {
+
+    if(idade >= 18) {
+
+        console.log("Pode se matricular na auto escola");
+
+    } else {
+
+        console.log("Não pode se matricular na auto escola");
+
+    }
+
+}
+
+podeEntrarNaAuto(16);
+podeEntrarNaAuto(25);
+podeEntrarNaAuto(17);
+podeEntrarNaAuto(18);
+
+/*
+Não pode se matricular na auto escola
+Pode se matricular na auto escola
+Não pode se matricular na auto escola
+Pode se matricular na auto escola
+*/
+
+```
+
 118. Exercício 21: explicação
 
 119. Exercício 21: solução
+
+- [Secao-07-Exercicios-sobre-funcoes/119-Exercicio-21.js](Secao-07-Exercicios-sobre-funcoes/119-Exercicio-21.js)
+
+```javascript
+function verificaTipoDeDado(dado) {
+
+    if(typeof dado === 'string') {
+        console.log("Este dado é uma string");
+    } else if(typeof dado === 'number') {
+        console.log("Este dado é um number");
+    } else if(typeof dado === 'boolean') {
+        console.log("Este dado é um boolean");
+    }
+
+}
+
+verificaTipoDeDado(true);
+verificaTipoDeDado(23);
+verificaTipoDeDado("teste");
+/*
+Este dado é um boolean
+Este dado é um number
+Este dado é uma string
+*/
+
+```
 
 120. Exercício 22: explicação
 
 121. Exercício 22: solução
 
+- [Secao-07-Exercicios-sobre-funcoes/121-Exercicio-22.js](Secao-07-Exercicios-sobre-funcoes/121-Exercicio-22.js)
+
+```javascript
+function numeroPos(numNegativo) {
+    return Math.abs(numNegativo);
+}
+
+console.log(numeroPos(-13));
+console.log(numeroPos(5));
+console.log(numeroPos(-34.4));
+/*
+13
+5
+34.4
+*/
+
+```
+
 122. Exercício 23: explicação
 
 123. Exercício 23: solução
+
+- [Secao-07-Exercicios-sobre-funcoes/123-Exercicio-23.js](Secao-07-Exercicios-sobre-funcoes/123-Exercicio-23.js)
+
+```javascript
+function checarTamanhoTexto(texto) {
+    if(texto.length > 10) {
+        console.log("Texto muito longo");
+    } else {
+        console.log("Texto dentro do limite");
+    }
+    console.log(texto.length);
+}
+
+checarTamanhoTexto("Teste");
+checarTamanhoTexto("Vamos testar se funciona");
+checarTamanhoTexto("10-");
+```
 
 124. Exercício 24: explicação
 
 125. Exercício 24: solução
 
+- [Secao-07-Exercicios-sobre-funcoes/125-Exercicio-24.js](Secao-07-Exercicios-sobre-funcoes/125-Exercicio-24.js)
+
+```javascript
+function potencia(a, b) {
+    // return Math.pow(a,b);
+    return a ** b;
+}
+
+console.log(potencia(2, 2));
+console.log(potencia(3, 2));
+console.log(potencia(4, 4));
+console.log(potencia(5, 2));
+/*
+4
+9
+256
+25
+*/
+
+```
+
 126. Exercício 25: explicação
 
 127. Exercício 25: solução
+
+- [Secao-07-Exercicios-sobre-funcoes/127-Exercicio-25.js](Secao-07-Exercicios-sobre-funcoes/127-Exercicio-25.js)
+
+```javascript
+function imprimePar(num) {
+    for (let i = num; i >= 0; i--) {
+        if (i % 2 == 0) {
+            console.log(i);
+        }
+    }
+}
+
+imprimePar(15);
+imprimePar(883);
+imprimePar(48);
+
+```
 
 128. Conclusão da seção
 
