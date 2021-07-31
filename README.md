@@ -1649,6 +1649,67 @@ imprimePar(48);
 
 ## <a name="parte8">8 - Seção 08: Arrays e Objetos</a>
 
+129. Introdução da seção
+
+130. O que são arrays?
+
+131. Mais sobre arrays
+
+132. O que são propriedades?
+
+133. O que são métodos?
+
+134. O que são objetos?
+
+135. Adicionando e deletando propriedades de um objeto
+
+136. Copiando propriedades de um objeto
+
+137. Verificando as chaves de um objeto
+
+138. Mutação
+
+139. Loop em arrays
+
+140. Métodos de arrays: push e pop
+
+141. Métodos de arrays: shift e unshift
+
+142. Métodos de arrays: indexOf e lastIndexOf
+
+143. Métodos de arrays: slice
+
+144. Métodos de arrays: forEach
+
+145. Métodos de arrays: includes
+
+146. Métodos de arrays: reverse
+
+147. Métodos de strings: trim
+
+148. Métodos de strings: padStart
+
+149. Métodos de strings: split
+
+150. Métodos de strings: join
+
+151. Métodos de strings: repeat
+
+152. Rest operator
+
+153. Destructuring em objetos
+
+154. Destructuring em arrays
+
+155. O que é JSON?
+
+156. Mais sobre JSON
+
+157. Convertendo JSON para string
+
+158. Conclusão
+
+Teste 4: Quiz sobre arrays e objetos
 
 
 [Voltar ao Índice](#indice)
