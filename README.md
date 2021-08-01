@@ -1686,6 +1686,21 @@ console.log(arr[arr.length - 1]); // 7
 
 132. O que são propriedades?
 
+- [Secao-08-Arrays-e-Objetos/132-O-que-sao-propriedades.js](Secao-08-Arrays-e-Objetos/132-O-que-sao-propriedades.js)
+
+```javascript
+let nome = "João";
+
+console.log(nome.length); // 4
+
+let numeros = [1, 23, 34, 5, 6, 7, 8];
+
+console.log(numeros.length);    // 7
+console.log(numeros['length']);// 7
+console.log(numeros[1]); // 23
+
+```
+
 133. O que são métodos?
 
 134. O que são objetos?
