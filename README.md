@@ -1723,6 +1723,26 @@ console.log(typeof marca2.toLowerCase); // function
 
 134. O que são objetos?
 
+- [Secao-08-Arrays-e-Objetos/134-O-que-sao-objetos.js](Secao-08-Arrays-e-Objetos/134-O-que-sao-objetos.js)
+
+```javascript
+let cachorro = {
+    patas: 4,
+    nome: 'Shark',
+    latir: function () {
+        console.log("Au Au");
+    }
+};
+
+console.log(cachorro.patas) // 4
+console.log(cachorro.nome); // Shark
+cachorro.latir(); // Au Au
+
+// [] = array
+// {} = obj
+
+```
+
 135. Adicionando e deletando propriedades de um objeto
 
 136. Copiando propriedades de um objeto
