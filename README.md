@@ -1745,6 +1745,22 @@ cachorro.latir(); // Au Au
 
 135. Adicionando e deletando propriedades de um objeto
 
+- [Secao-08-Arrays-e-Objetos/135-Adicionando-e-deletando-propriedades-de-um-objeto.js](Secao-08-Arrays-e-Objetos/135-Adicionando-e-deletando-propriedades-de-um-objeto.js)
+
+```javascript
+let pessoa = {
+    nome: "Malcher jr",
+    idade: 36,
+    profissao: "programador"
+}
+console.log(pessoa);// { nome: 'Malcher jr', idade: 36, profissao: 'programador' }
+delete pessoa.nome;
+console.log(pessoa);// { idade: 36, profissao: 'programador' }
+pessoa.casada = false;
+console.log(pessoa); // { idade: 36, profissao: 'programador', casada: false }
+
+```
+
 136. Copiando propriedades de um objeto
 
 137. Verificando as chaves de um objeto
