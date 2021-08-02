@@ -1797,6 +1797,23 @@ console.log(carro);
 
 137. Verificando as chaves de um objeto
 
+- [Secao-08-Arrays-e-Objetos/137-Verificando-as-chaves-de-um-objeto.js](Secao-08-Arrays-e-Objetos/137-Verificando-as-chaves-de-um-objeto.js)
+
+```javascript
+let obj = {
+    'chave1': 1,
+    'chave2': 2,
+    'chave3': 3,
+}
+
+console.log(obj); 
+// { chave1: 1, chave2: 2, chave3: 3 }
+
+console.log(Object.keys(obj));
+// [ 'chave1', 'chave2', 'chave3' ]
+
+```
+
 138. Mutação
 
 139. Loop em arrays
