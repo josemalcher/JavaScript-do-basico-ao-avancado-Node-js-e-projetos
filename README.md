@@ -1843,6 +1843,22 @@ console.log(pessoa2.nome); // Maria
 
 139. Loop em arrays
 
+- [Secao-08-Arrays-e-Objetos/139-Loop-em-arrays.js](Secao-08-Arrays-e-Objetos/139-Loop-em-arrays.js)
+
+```javascript
+let nomes = ["Malcher", "Jose", "Maria"];
+
+for (let i = 0; i < nomes.length; i++) {
+    console.log(nomes[i]);
+}
+/*
+Malcher
+Jose
+Maria
+*/
+
+```
+
 140. Métodos de arrays: push e pop
 
 141. Métodos de arrays: shift e unshift
