@@ -1995,6 +1995,18 @@ console.log(nums.reverse());
 
 147. Métodos de strings: trim
 
+- []()
+
+```javascript
+let nome = "      Malcher        ";
+
+let nomeCorrigido = nome.trim();
+
+console.log(nome);          //       Malcher
+console.log(nomeCorrigido); // Malcher
+
+```
+
 148. Métodos de strings: padStart
 
 149. Métodos de strings: split
