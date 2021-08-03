@@ -2063,6 +2063,15 @@ console.log(palavras.join(" "));
 
 151. Métodos de strings: repeat
 
+- [Secao-08-Arrays-e-Objetos/151-Metodos-de-strings-repeat.js](Secao-08-Arrays-e-Objetos/151-Metodos-de-strings-repeat.js)
+
+```javascript
+let palavra = "Repetir a frase ";
+
+console.log(palavra.repeat(2));
+// Repetir a frase Repetir a frase
+```
+
 152. Rest operator
 
 153. Destructuring em objetos
