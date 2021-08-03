@@ -2009,6 +2009,18 @@ console.log(nomeCorrigido); // Malcher
 
 148. Métodos de strings: padStart
 
+- [Secao-08-Arrays-e-Objetos/148-Metodos-de-strings-padStart.js](Secao-08-Arrays-e-Objetos/148-Metodos-de-strings-padStart.js)
+
+```javascript
+let sku = "34"
+console.log(sku.padStart(6, "0"));
+// 000034
+
+let sku2 = "7891";
+console.log(sku2.padStart(6, "0"));
+//007891
+```
+
 149. Métodos de strings: split
 
 150. Métodos de strings: join
