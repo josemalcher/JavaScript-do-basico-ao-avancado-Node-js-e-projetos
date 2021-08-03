@@ -2224,41 +2224,213 @@ Teste 4: Quiz sobre arrays e objetos
 
 161. Exercício 26: solução
 
+- [Secao-09-Exercicios-sobre-arrays-e-objetos/161-Exercicio-26.js](Secao-09-Exercicios-sobre-arrays-e-objetos/161-Exercicio-26.js)
+
+```javascript
+let numeros = [5,10,15,20,25];
+
+console.log(numeros[0]);// 5
+console.log(numeros[2]);// 15
+console.log(numeros[3]);// 20
+
+```
+
 162. Exercício 27: explicação
 
 163. Exercício 27: solução
+
+- [Secao-09-Exercicios-sobre-arrays-e-objetos/163-Exercicio-27.js](Secao-09-Exercicios-sobre-arrays-e-objetos/163-Exercicio-27.js)
+
+```javascript
+let nomes = ["Matheus", "João"];
+let testes = [true, false, true, true];
+
+console.log(nomes.length); // 2
+console.log(testes.length);// 4
+
+```
 
 164. Exercício 28: explicação
 
 165. Exercício 28: solução
 
+- [Secao-09-Exercicios-sobre-arrays-e-objetos/165-Exercicio-28.js](Secao-09-Exercicios-sobre-arrays-e-objetos/165-Exercicio-28.js)
+
+```javascript
+let onibus = {
+    rodas: 8,
+    limitePassageiros: 40,
+    portas: 2
+};
+
+console.log(onibus.rodas);// 8
+console.log(onibus.limitePassageiros); // 40
+console.log(onibus.portas);// 2
+
+```
+
 166. Exercício 29: explicação
 
 167. Exercício 29: solução
+
+- [Secao-09-Exercicios-sobre-arrays-e-objetos/167-Exercicio-29.js](Secao-09-Exercicios-sobre-arrays-e-objetos/167-Exercicio-29.js)
+
+```javascript
+let onibus = {
+    rodas: 8,
+    limitePassageiros: 40,
+    portas: 2
+};
+
+console.log(onibus.rodas);// 8
+delete onibus.rodas;
+console.log(onibus.rodas);// undefined
+
+onibus.janelas = 20;
+
+console.log(onibus);
+// { limitePassageiros: 40, portas: 2, janelas: 20 }
+console.log(onibus.janelas);
+// 20
+
+```
 
 168. Exercício 30: explicação
 
 169. Exercício 30: solução
 
+- [Secao-09-Exercicios-sobre-arrays-e-objetos/169-Exercicio-30.js](Secao-09-Exercicios-sobre-arrays-e-objetos/169-Exercicio-30.js)
+
+```javascript
+let names = ["João", "Maria", "José", "Matheus", "Rodrigo"];
+
+if(names.includes("Salete")) {
+    console.log("O nome foi encontrado");
+} else {
+    console.log("O nome não foi encontrado");
+}
+
+// O nome não foi encontrado
+```
+
 170. Exercício 31: explicação
 
 171. Exercício 31: solução
+
+- [Secao-09-Exercicios-sobre-arrays-e-objetos/171-Exercicio-31.js](Secao-09-Exercicios-sobre-arrays-e-objetos/171-Exercicio-31.js)
+
+```javascript
+let nums = [1,2,3,4,5,6];
+let nums2 = [1,2,3];
+
+function verificaElementosArray(arr) {
+    if(arr.length >= 5) {
+        console.log("Muitos elementos");
+    } else {
+        console.log("Poucos elementos");
+    }
+}
+
+verificaElementosArray(nums); // Muitos elementos
+verificaElementosArray(nums2);// Poucos elementos
+
+```
 
 172. Exercício 32: explicação
 
 173. Exercício 32: solução
 
+- [Secao-09-Exercicios-sobre-arrays-e-objetos/173-Exercicio-32.js](Secao-09-Exercicios-sobre-arrays-e-objetos/173-Exercicio-32.js)
+
+```javascript
+let frutas = ["Maçã", "Banana", "Melão", "Melância", "Laranja"];
+
+for(let i = 0; i < frutas.length; i++) {
+    console.log(frutas[i]);
+}
+/*
+    Maçã
+    Banana
+    Melão
+    Melância
+    Laranja
+*/
+
+```
+
 174. Exercício 33: explicação
 
 175. Exercício 33: solução
+
+- [Secao-09-Exercicios-sobre-arrays-e-objetos/175-Exercicio-33.js](Secao-09-Exercicios-sobre-arrays-e-objetos/175-Exercicio-33.js)
+
+```javascript
+let pessoa = {
+    "name": "Malcher",
+    "age": 36,
+    "role": "Programador"
+}
+
+console.log(pessoa.name);// Malcher
+console.log(pessoa.age); // 36
+console.log(pessoa.role);// Programador
+
+```
 
 176. Exercício 34: explicação
 
 177. Exercício 34: solução
 
+- [Secao-09-Exercicios-sobre-arrays-e-objetos/177-Exercicio-34.js](Secao-09-Exercicios-sobre-arrays-e-objetos/177-Exercicio-34.js)
+
+```javascript
+const frase = "Ser um programador bom requer muita prática";
+
+const arrFrase = frase.split(" ");
+
+for(let i = 0; i < arrFrase.length; i++) {
+    console.log(arrFrase[i]);
+}
+/*
+Ser
+um
+programador
+bom
+requer
+muita
+prática
+*/
+
+```
+
 178. Exercício 35: explicação
 
 179. Exercício 35: solução
+
+- [Secao-09-Exercicios-sobre-arrays-e-objetos/179-Exercicio-35.js](Secao-09-Exercicios-sobre-arrays-e-objetos/179-Exercicio-35.js)
+
+```javascript
+const calculadora = {
+    soma: function(a, b) {
+        return a + b;
+    },
+    subtrair: function(a, b) {
+        return a - b;
+    },
+    multiplicar: function(a, b) {
+        return a * b;
+    },
+    dividir: function(a, b) {
+        return a / b;
+    }
+}
+
+console.log(calculadora.soma(3,4)); // 7
+console.log(calculadora.subtrair(5,5)); // 0
+console.log(calculadora.multiplicar(8,2)); // 16
+console.log(calculadora.dividir(5,2));// 2.5
+
+```
 
 180. Conclusão da seção
 
