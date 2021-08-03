@@ -1911,6 +1911,30 @@ console.log(nums.lastIndexOf(2));// 6
 
 143. Métodos de arrays: slice
 
+- [Secao-08-Arrays-e-Objetos/143-Metodos-de-arrays-slice.js](Secao-08-Arrays-e-Objetos/143-Metodos-de-arrays-slice.js)
+
+```javascript
+let nums = [0,1,2,3,4,5,6,7,8,9];
+
+console.log(nums.slice(4,5)); // [ 4 ]
+
+console.log(nums.slice(4,6));// [ 4, 5 ]
+
+console.log(nums.slice(2));
+/*
+[
+    2, 3, 4, 5,
+    6, 7, 8, 9
+]
+*/
+
+console.log(nums.slice(-2));// [ 8, 9 ]
+
+console.log(nums.slice(3,-2));
+//[ 3, 4, 5, 6, 7 ]
+
+```
+
 144. Métodos de arrays: forEach
 
 145. Métodos de arrays: includes
