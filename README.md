@@ -1959,6 +1959,18 @@ O nome é João
 
 145. Métodos de arrays: includes
 
+- [Secao-08-Arrays-e-Objetos/145-Metodos-de-arrays-includes.js](Secao-08-Arrays-e-Objetos/145-Metodos-de-arrays-includes.js)
+
+```javascript
+let carros = ["BMW", "Fiat", "VW", "Renault", "Audi"];
+
+console.log(carros.includes("Fiat"));// true
+console.log(carros.includes("Ford"));// false
+
+// if(carros.includes("BMW")) {}
+
+```
+
 146. Métodos de arrays: reverse
 
 147. Métodos de strings: trim
