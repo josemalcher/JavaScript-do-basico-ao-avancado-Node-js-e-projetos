@@ -1973,6 +1973,26 @@ console.log(carros.includes("Ford"));// false
 
 146. Métodos de arrays: reverse
 
+- [Secao-08-Arrays-e-Objetos/146-Metodos-de-arrays-reverse.js](Secao-08-Arrays-e-Objetos/146-Metodos-de-arrays-reverse.js)
+
+```javascript
+let carros = ["BMW", "Fiat", "VW", "Renault", "Audi"];
+
+console.log(carros.reverse());
+// [ 'Audi', 'Renault', 'VW', 'Fiat', 'BMW' ]
+
+let nums = [1,2,3,45,6,7,7];
+
+console.log(nums.reverse());
+/*
+[
+    7, 7, 6, 45,
+    3, 2, 1
+]
+*/
+
+```
+
 147. Métodos de strings: trim
 
 148. Métodos de strings: padStart
