@@ -2044,6 +2044,23 @@ console.log(produtos.split(';'));
 
 150. Métodos de strings: join
 
+-[Secao-08-Arrays-e-Objetos/150-Metodos-de-strings-join.js](Secao-08-Arrays-e-Objetos/150-Metodos-de-strings-join.js)
+
+```javascript
+let frase = "Testando o método split";
+
+let palavras = frase.split(" ");
+
+let novaFrase = palavras.join("@");
+
+console.log(novaFrase);
+// Testando@o@método@split
+
+console.log(palavras.join(" "));
+// Testando o método split
+
+```
+
 151. Métodos de strings: repeat
 
 152. Rest operator
