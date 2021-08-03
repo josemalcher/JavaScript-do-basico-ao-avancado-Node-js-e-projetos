@@ -2136,6 +2136,18 @@ console.log(vPortas); // 4
 
 154. Destructuring em arrays
 
+- [Secao-08-Arrays-e-Objetos/154-Destructuring-em-arrays.js](Secao-08-Arrays-e-Objetos/154-Destructuring-em-arrays.js)
+
+```javascript
+let numeros = [2,4,5,8];
+
+let [num1, num2, num3, num4] = numeros;
+
+console.log(num1);// 2
+console.log(num3);// 5
+
+```
+
 155. O que é JSON?
 
 156. Mais sobre JSON
