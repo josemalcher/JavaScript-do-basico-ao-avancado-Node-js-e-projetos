@@ -1879,6 +1879,23 @@ console.log(nomes); // [ 'Malcher', 'Jose', 'Pedro' ]
 
 141. Métodos de arrays: shift e unshift
 
+- [Secao-08-Arrays-e-Objetos/141-Metodos-de-arrays-shift-e-unshift.js](Secao-08-Arrays-e-Objetos/141-Metodos-de-arrays-shift-e-unshift.js)
+
+```javascript
+let carros = ["BMW", "Audi", "VW", "Fiat"];
+
+let removerPrimeiroCarro = carros.shift();
+
+console.log(removerPrimeiroCarro); // BMW
+console.log(carros); // [ 'Audi', 'VW', 'Fiat' ]
+
+carros.unshift('Gurgel');
+
+console.log(carros); // [ 'Gurgel', 'Audi', 'VW', 'Fiat' ]
+console.log(carros[0]); // Gurgel
+
+```
+
 142. Métodos de arrays: indexOf e lastIndexOf
 
 143. Métodos de arrays: slice
