@@ -1937,6 +1937,26 @@ console.log(nums.slice(3,-2));
 
 144. Métodos de arrays: forEach
 
+- [Secao-08-Arrays-e-Objetos/144-Metodos-de-arrays-forEach.js](Secao-08-Arrays-e-Objetos/144-Metodos-de-arrays-forEach.js)
+
+```javascript
+let nomes = ["Matheus", "Maria", "José", "Pedro", "João"];
+
+nomes.forEach(nome => {
+    console.log("O nome é " + nome);
+});
+// nomes[i]
+
+/*
+O nome é Matheus
+O nome é Maria
+O nome é José
+O nome é Pedro
+O nome é João
+*/
+
+```
+
 145. Métodos de arrays: includes
 
 146. Métodos de arrays: reverse
