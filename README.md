@@ -2441,6 +2441,43 @@ console.log(calculadora.dividir(5,2));// 2.5
 
 ## <a name="parte10">10 - Seção 10: Conceitos de orientação a objetos</a>
 
+181. Introdução da seção
+
+182. O que é orientação a objetos?
+
+183. Aprofundando em métodos
+
+184. Um pouco mais sobre métodos
+
+185. Prototypes
+
+186. Avançando em prototypes
+
+187. Classes
+
+188. Instanciando classes por função
+
+189. Instanciando classes por new
+
+190. Métodos no prototype
+
+191. Class e constructor do ES6
+
+192. Override no prototype
+
+193. Métodos e propriedades em uma Class
+
+194. Symbol
+
+195. Getters e Setters
+
+196. Herança
+
+197. Operador instanceof
+
+198. Conclusão da seção
+
+Teste 5: Questionário sobre OO
 
 
 [Voltar ao Índice](#indice)
