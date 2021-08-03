@@ -1861,6 +1861,22 @@ Maria
 
 140. Métodos de arrays: push e pop
 
+- [Secao-08-Arrays-e-Objetos/140-Metodos-de-arrays-push-e-pop.js](Secao-08-Arrays-e-Objetos/140-Metodos-de-arrays-push-e-pop.js)
+
+```javascript
+let nomes = ["Malcher", "Jose", "Maria"];
+
+let elelementosRemovidos = nomes.pop();
+console.log(elelementosRemovidos); // Maria
+
+console.log(nomes); // [ 'Malcher', 'Jose' ]
+
+nomes.push('Pedro');
+console.log(nomes); // [ 'Malcher', 'Jose', 'Pedro' ]
+
+
+```
+
 141. Métodos de arrays: shift e unshift
 
 142. Métodos de arrays: indexOf e lastIndexOf
