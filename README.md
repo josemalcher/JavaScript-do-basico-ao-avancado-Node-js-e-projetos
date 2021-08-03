@@ -2150,6 +2150,19 @@ console.log(num3);// 5
 
 155. O que é JSON?
 
+- [Secao-08-Arrays-e-Objetos/155-O-que-e-JSON.js](Secao-08-Arrays-e-Objetos/155-O-que-e-JSON.js)
+
+```javascript
+let pessoa = {
+    "nome": "Malcher",
+    "idade": 36
+}
+
+console.log(pessoa.nome);//Malcher
+console.log(pessoa.idade);// 36
+
+```
+
 156. Mais sobre JSON
 
 157. Convertendo JSON para string
