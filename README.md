@@ -1898,6 +1898,17 @@ console.log(carros[0]); // Gurgel
 
 142. Métodos de arrays: indexOf e lastIndexOf
 
+- [Secao-08-Arrays-e-Objetos/142-Metodos-de-arrays-indexOf-e-lastIndexOf.js](Secao-08-Arrays-e-Objetos/142-Metodos-de-arrays-indexOf-e-lastIndexOf.js)
+
+```javascript
+let nums = [5,6,2,4,9,6,2];
+
+console.log(nums.indexOf(2));// 2
+
+console.log(nums.lastIndexOf(2));// 6
+
+```
+
 143. Métodos de arrays: slice
 
 144. Métodos de arrays: forEach
