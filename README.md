@@ -2218,7 +2218,49 @@ Teste 4: Quiz sobre arrays e objetos
 
 ## <a name="parte9">9 - Seção 09: Exercícios sobre arrays e objetos</a>
 
+159. Introdução da seção
 
+160. Exercício 26: explicação
+
+161. Exercício 26: solução
+
+162. Exercício 27: explicação
+
+163. Exercício 27: solução
+
+164. Exercício 28: explicação
+
+165. Exercício 28: solução
+
+166. Exercício 29: explicação
+
+167. Exercício 29: solução
+
+168. Exercício 30: explicação
+
+169. Exercício 30: solução
+
+170. Exercício 31: explicação
+
+171. Exercício 31: solução
+
+172. Exercício 32: explicação
+
+173. Exercício 32: solução
+
+174. Exercício 33: explicação
+
+175. Exercício 33: solução
+
+176. Exercício 34: explicação
+
+177. Exercício 34: solução
+
+178. Exercício 35: explicação
+
+179. Exercício 35: solução
+
+180. Conclusão da seção
 
 [Voltar ao Índice](#indice)
 
