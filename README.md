@@ -2639,6 +2639,29 @@ husky.latir();// AU au
 
 191. Class e constructor do ES6
 
+- [Secao-10-Conceitos-de-orientacao-a-objetos/191-Class-e-constructor-do-ES6.js](Secao-10-Conceitos-de-orientacao-a-objetos/191-Class-e-constructor-do-ES6.js)
+
+```javascript
+class Cachorro {
+    constructor(raca, cor) {
+        this.raca = raca;
+        this.cor = cor;
+    }
+    latir() {
+        console.log("Au au");
+    }
+}
+
+Cachorro.prototype.patas = 4;
+
+let labrador = new Cachorro('Labrador', 'Amarelo');
+
+console.log(labrador.patas);// 4
+
+labrador.latir();// Au au
+
+```
+
 192. Override no prototype
 
 193. Métodos e propriedades em uma Class
