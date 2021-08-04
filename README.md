@@ -2643,23 +2643,17 @@ husky.latir();// AU au
 
 ```javascript
 class Cachorro {
-    constructor(raca, cor) {
+    constructor(raca, patas, cor) {
         this.raca = raca;
+        this.patas = patas;
         this.cor = cor;
-    }
-    latir() {
-        console.log("Au au");
     }
 }
 
-Cachorro.prototype.patas = 4;
+let labrador = new Cachorro('Labrador', 4, 'Amarelo');
 
-let labrador = new Cachorro('Labrador', 'Amarelo');
-
-console.log(labrador.patas);// 4
-
-labrador.latir();// Au au
-
+console.log(labrador);
+// Cachorro { raca: 'Labrador', patas: 4, cor: 'Amarelo' }
 ```
 
 192. Override no prototype
@@ -2693,6 +2687,30 @@ console.log(labrador.raca);// Labrador
 ```
 
 193. Métodos e propriedades em uma Class
+
+- [Secao-10-Conceitos-de-orientacao-a-objetos/193-Metodos-e-propriedades-em-uma-Class.js](Secao-10-Conceitos-de-orientacao-a-objetos/193-Metodos-e-propriedades-em-uma-Class.js)
+
+```javascript
+class Cachorro {
+    constructor(raca, cor) {
+        this.raca = raca;
+        this.cor = cor;
+    }
+
+    latir() {
+        console.log("Au au");
+    }
+}
+
+Cachorro.prototype.patas = 4;
+
+let labrador = new Cachorro('Labrador', 'Amarelo');
+
+console.log(labrador.patas);// 4
+
+labrador.latir();// Au au
+
+```
 
 194. Symbol
 
