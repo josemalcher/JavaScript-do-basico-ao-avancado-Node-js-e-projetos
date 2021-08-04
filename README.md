@@ -2447,6 +2447,22 @@ console.log(calculadora.dividir(5,2));// 2.5
 
 183. Aprofundando em métodos
 
+- [Secao-10-Conceitos-de-orientacao-a-objetos/183-Aprofundando-em-metodos.js](Secao-10-Conceitos-de-orientacao-a-objetos/183-Aprofundando-em-metodos.js)
+
+```javascript
+const cachorro = {
+    uivar: function () {
+        console.log("Auuuuu");
+    },
+    rosnar: function () {
+        console.log("grrrrrrr");
+    }
+}
+cachorro.uivar();// Auuuuu
+cachorro.rosnar();// grrrrrrr
+
+```
+
 184. Um pouco mais sobre métodos
 
 185. Prototypes
