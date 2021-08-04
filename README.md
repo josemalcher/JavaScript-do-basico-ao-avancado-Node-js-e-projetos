@@ -2873,6 +2873,33 @@ Teste 5: Questionário sobre OO
 
 201. Exercício 36: solução
 
+- [Secao-11-Exercicios-sobre-orientacao-a-objetos/201-Exercicio-36.js](Secao-11-Exercicios-sobre-orientacao-a-objetos/201-Exercicio-36.js)
+
+```javascript
+class Conta{
+    constructor(saldo) {
+        this.saldo = saldo;
+    }
+    deposito(valor) {
+        this.saldo += valor;
+    }
+
+    saque(valor) {
+        this.saldo -= valor + (valor * 0.05);
+    }
+}
+let conta = new Conta(1000);
+
+conta.deposito(1000);
+
+console.log(conta.saldo);// 2000
+
+conta.saque(500);
+
+console.log(conta.saldo);// 1475
+
+```
+
 202. Exercício 37: explicação
 
 203. Exercício 37: solução
