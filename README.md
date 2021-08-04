@@ -2613,6 +2613,30 @@ husky.uivar();
 
 190. Métodos no prototype
 
+- [Secao-10-Conceitos-de-orientacao-a-objetos/190-Metodos-no-prototype.js](Secao-10-Conceitos-de-orientacao-a-objetos/190-Metodos-no-prototype.js)
+
+```javascript
+function Cachorro(raca, patas, cor) {
+    this.raca = raca;
+    this.patas = patas;
+    this.cor = cor;
+}
+
+Cachorro.prototype.uivar = function () {
+    console.log("Auuuu");
+};
+
+Cachorro.prototype.latir = function () {
+    console.log("AU au");
+}
+
+let husky = new Cachorro('Husky', 4, 'cinza');
+
+husky.uivar();// Auuuu
+husky.latir();// AU au
+
+```
+
 191. Class e constructor do ES6
 
 192. Override no prototype
