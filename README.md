@@ -2664,6 +2664,34 @@ labrador.latir();// Au au
 
 192. Override no prototype
 
+- [Secao-10-Conceitos-de-orientacao-a-objetos/192-Override-no-prototype.js](Secao-10-Conceitos-de-orientacao-a-objetos/192-Override-no-prototype.js)
+
+```javascript
+class Cachorro {
+    constructor(raca, cor) {
+        this.raca = raca;
+        this.cor = cor;
+    }
+
+    latir() {
+        console.log("Au au");
+    }
+}
+
+Cachorro.prototype.raca = 'SRD';
+Cachorro.prototype.patas = 4;
+
+let labrador = new Cachorro('Labrador', 'Amarelo');
+
+console.log(labrador.patas);// 4
+
+labrador.latir();// Au au
+
+console.log(Cachorro.prototype.raca);// SRD
+console.log(labrador.raca);// Labrador
+
+```
+
 193. Métodos e propriedades em uma Class
 
 194. Symbol
