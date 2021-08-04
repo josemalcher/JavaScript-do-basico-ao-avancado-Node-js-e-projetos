@@ -2904,17 +2904,334 @@ console.log(conta.saldo);// 1475
 
 203. Exercício 37: solução
 
+- [Secao-11-Exercicios-sobre-orientacao-a-objetos/203-Exercicio-37.js](Secao-11-Exercicios-sobre-orientacao-a-objetos/203-Exercicio-37.js)
+
+```javascript
+class Carrinho {
+    constructor(itens, qtd, valorTotal) {
+        this.itens = itens;
+        this.qtd = qtd;
+        this.valorTotal = valorTotal;
+    }
+
+    addItem(item) {
+
+        let contador = 0;
+
+        for (let itemCarrinho in this.itens) {
+            if (this.itens[itemCarrinho].id == item.id) {
+                this.itens[itemCarrinho].qtd += item.qtd;
+                contador = 1;
+            }
+        }
+
+        if (contador == 0) {
+            this.itens.push(item);
+        }
+
+        this.qtd += item.qtd;
+        this.valorTotal += item.preco * item.qtd;
+
+    }
+
+    removeItem(item) {
+
+        for (let itemCarrinho in this.itens) {
+            if (this.itens[itemCarrinho].id == item.id) {
+
+                let obj = this.itens[itemCarrinho];
+                let index = this.itens.findIndex(function (obj) {
+                    return obj.id == item.id
+                });
+
+                this.qtd -= this.itens[itemCarrinho].qtd;
+                this.valorTotal -= this.itens[itemCarrinho].preco * this.itens[itemCarrinho].qtd;
+
+                this.itens.splice(index, 1);
+
+            }
+        }
+    }
+
+}
+
+let carrinho = new Carrinho([
+    {
+        id: 01,
+        nome: "Camisa",
+        qtd: 1,
+        preco: 20
+    },
+    {
+        id: 02,
+        nome: "Calça",
+        qtd: 2,
+        preco: 50
+    }
+], 3, 120);
+
+console.log(carrinho);
+
+/*
+Carrinho {
+    itens: [
+        { id: 1, nome: 'Camisa', qtd: 1, preco: 20 },
+        { id: 2, nome: 'Calça', qtd: 2, preco: 50 }
+    ],
+        qtd: 3,
+        valorTotal: 120
+}
+*/
+
+
+carrinho.addItem({id: 01, nome: "Camisa", qtd: 2, preco: 20});
+
+console.log(carrinho);
+/*
+Carrinho {
+    itens: [
+        { id: 1, nome: 'Camisa', qtd: 3, preco: 20 },
+        { id: 2, nome: 'Calça', qtd: 2, preco: 50 }
+    ],
+        qtd: 5,
+        valorTotal: 160
+}
+*/
+
+
+carrinho.addItem({id: 03, nome: "Boné", qtd: 1, preco: 15});
+
+console.log(carrinho);
+
+/*
+Carrinho {
+    itens: [
+        { id: 1, nome: 'Camisa', qtd: 3, preco: 20 },
+        { id: 2, nome: 'Calça', qtd: 2, preco: 50 },
+        { id: 3, nome: 'Boné', qtd: 1, preco: 15 }
+    ],
+        qtd: 6,
+        valorTotal: 175
+}
+*/
+
+
+carrinho.removeItem({id: 01, nome: "Camisa", qtd: 1, preco: 20});
+
+console.log(carrinho);
+
+/*
+Carrinho {
+    itens: [
+        { id: 2, nome: 'Calça', qtd: 2, preco: 50 },
+        { id: 3, nome: 'Boné', qtd: 1, preco: 15 }
+    ],
+        qtd: 3,
+        valorTotal: 115
+}
+*/
+
+```
+
 204. Exercício 38: explicação
 
 205. Exercício 38: solução
+
+- [Secao-11-Exercicios-sobre-orientacao-a-objetos/205-Exercicio-38.js](Secao-11-Exercicios-sobre-orientacao-a-objetos/205-Exercicio-38.js)
+
+```javascript
+class Endereco {
+    constructor(rua, bairro, cidade, estado) {
+        this.rua = rua;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.estado = estado;
+    }
+
+    set novaRua(novaRua) {
+        this.rua = novaRua;
+    }
+
+    set novoBairro(novoBairro) {
+        this.bairro = novoBairro;
+    }
+
+    set novaCidade(novaCidade) {
+        this.cidade = novaCidade;
+    }
+
+    set novoEstado(novoEstado) {
+        this.estado = novoEstado;
+    }
+
+}
+
+let endereco = new Endereco("Rua das Gaivotas", "Terrário", "São Joaquim", "SC");
+console.log(endereco);
+/*
+Endereco {
+    rua: 'Rua das Gaivotas',
+        bairro: 'Terrário',
+        cidade: 'São Joaquim',
+        estado: 'SC'
+}
+*/
+
+endereco.novaRua = "Rua dos Pardais";
+console.log(endereco);
+/*
+Endereco {
+    rua: 'Rua dos Pardais',
+        bairro: 'Terrário',
+        cidade: 'São Joaquim',
+        estado: 'SC'
+}
+*/
+
+endereco.novaCidade = "São Paulo";
+console.log(endereco);
+/*
+Endereco {
+    rua: 'Rua dos Pardais',
+        bairro: 'Terrário',
+        cidade: 'São Paulo',
+        estado: 'SC'
+}
+*/
+
+```
 
 206. Exercício 39: explicação
 
 207. Exercício 39: solução
 
+- [Secao-11-Exercicios-sobre-orientacao-a-objetos/207-Exercicio-39.js](Secao-11-Exercicios-sobre-orientacao-a-objetos/207-Exercicio-39.js)
+
+```javascript
+class Carro {
+    constructor(marca, cor, gasolinaRestante, consumo) {
+        this.marca = marca;
+        this.cor = cor;
+        this.gasolinaRestante = gasolinaRestante;
+        this.consumo = consumo;
+    }
+
+    dirigir(km) {
+        let litrosConsumidos = km / this.consumo;
+        this.gasolinaRestante -= litrosConsumidos;
+    }
+
+    abastecer(l) {
+        this.gasolinaRestante += l;
+    }
+}
+
+let carro = new Carro("VW", "Cinza", 100, 14);
+console.log(carro);
+// Carro { marca: 'VW', cor: 'Cinza', gasolinaRestante: 100, consumo: 14 }
+
+carro.dirigir(100);
+console.log(carro);
+/*
+Carro {
+    marca: 'VW',
+        cor: 'Cinza',
+        gasolinaRestante: 92.85714285714286,
+        consumo: 14
+}
+*/
+
+carro.abastecer(10);
+console.log(carro);
+/*
+Carro {
+    marca: 'VW',
+        cor: 'Cinza',
+        gasolinaRestante: 102.85714285714286,
+        consumo: 14
+}
+*/
+
+```
+
 208. Exercício 40: explicação
 
 209. Exercício 40: solução
+
+- []()
+
+```javascript
+class Conta {
+    constructor(saldoCC, saldoCP, juros) {
+        this.saldoCC = saldoCC;
+        this.saldoCP = saldoCP;
+        this.juros = juros;
+    }
+
+    deposito(valor) {
+        this.saldoCC += valor;
+    }
+
+    saque(valor) {
+        this.saldoCC -= valor;
+    }
+
+    transferenciaCP(valor) {
+        this.saldoCC -= valor;
+        this.saldoCP += valor;
+    }
+
+    transferenciaCC(valor) {
+        this.saldoCP -= valor;
+        this.saldoCC += valor;
+    }
+
+    jurosDeAniversario() {
+        let juros = (this.saldoCP * this.juros) / 100;
+        this.saldoCP += juros;
+    }
+
+}
+
+class ContaEspecial extends Conta {
+    constructor(saldoCC, saldoCP, juros) {
+        super(saldoCC, saldoCP, juros*2)
+    }
+}
+
+let conta = new Conta(1000, 5000, 1);
+
+console.log(conta);
+// Conta { saldoCC: 1000, saldoCP: 5000, juros: 1 }
+
+conta.saque(500);
+console.log(conta);
+// Conta { saldoCC: 500, saldoCP: 5000, juros: 1 }
+
+conta.deposito(5000);
+console.log(conta);
+// Conta { saldoCC: 5500, saldoCP: 5000, juros: 1 }
+
+conta.transferenciaCP(3000);
+console.log(conta);
+// Conta { saldoCC: 2500, saldoCP: 8000, juros: 1 }
+
+conta.jurosDeAniversario();
+console.log(conta);
+// Conta { saldoCC: 2500, saldoCP: 8080, juros: 1 }
+
+let conta2 = new ContaEspecial(10000, 50000, 1);
+console.log(conta2);
+// ContaEspecial { saldoCC: 10000, saldoCP: 50000, juros: 2 }
+
+conta2.saque(5000);
+console.log(conta2);
+// ContaEspecial { saldoCC: 5000, saldoCP: 50000, juros: 2 }
+
+conta2.jurosDeAniversario();
+console.log(conta2);
+// ContaEspecial { saldoCC: 5000, saldoCP: 51000, juros: 2 }
+```
 
 210. Conclusão da seção
 
