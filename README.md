@@ -3243,6 +3243,27 @@ console.log(conta2);
 
 ## <a name="parte12">12 - Seção 12: Debugs e erros no JavaScript</a>
 
+211. Introdução da seção
+
+212. O que é bug e debug?
+
+213. Strict mode
+
+214. Forma de debug: console.log
+
+215. Forma de debug: debugger
+
+216. Tratamento de input por função
+
+217. Exception
+
+218. Try e Catch
+
+219. Finally
+
+220. Assertion
+
+221. Conclusão de seção
 
 
 [Voltar ao Índice](#indice)
