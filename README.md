@@ -2495,6 +2495,21 @@ console.log(cachorro.getRaca());// A Raça é Pastor Alemão
 
 185. Prototypes
 
+- [Secao-10-Conceitos-de-orientacao-a-objetos/185-Prototypes.js](Secao-10-Conceitos-de-orientacao-a-objetos/185-Prototypes.js)
+
+```javascript
+const pessoa = {
+    maos: 2,
+}
+
+console.log(Object.getPrototypeOf(pessoa)); 
+// [Object: null prototype] {}
+console.log(Object.getPrototypeOf(pessoa) === Object.prototype);
+// true
+console.log(pessoa.hasOwnProperty('maos'));
+// true
+```
+
 186. Avançando em prototypes
 
 187. Classes
