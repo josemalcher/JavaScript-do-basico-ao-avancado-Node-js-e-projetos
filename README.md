@@ -2714,6 +2714,38 @@ labrador.latir();// Au au
 
 194. Symbol
 
+- [Secao-10-Conceitos-de-orientacao-a-objetos/194-Symbol.js](Secao-10-Conceitos-de-orientacao-a-objetos/194-Symbol.js)
+
+```javascript
+class Cachorro {
+    constructor(raca, cor) {
+        this.raca = raca;
+        this.cor = cor;
+    }
+
+    latir() {
+        console.log("Au au");
+    }
+}
+
+Cachorro.prototype.raca = 'SRD';
+let patas = Symbol();
+Cachorro.prototype[patas] = 4;
+
+let labrador = new Cachorro('Labrador', 'Amarelo');
+
+labrador.latir();// Au au
+
+console.log(Cachorro.prototype.raca);// SDR
+console.log(labrador.raca);// Labrador
+
+// acessando symbol
+console.log(Cachorro.prototype[patas]);// 4
+
+console.log(labrador[patas]);// 4
+
+```
+
 195. Getters e Setters
 
 196. Herança
