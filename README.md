@@ -2593,6 +2593,24 @@ Auau
 
 189. Instanciando classes por new
 
+- [Secao-10-Conceitos-de-orientacao-a-objetos/189-Instanciando-classes-por-new.js](Secao-10-Conceitos-de-orientacao-a-objetos/189-Instanciando-classes-por-new.js)
+
+```javascript
+function Cachorro(raca,patas,cor) {
+    this.raca = raca;
+    this.patas = patas;
+    this.cor = cor;
+    this.uivar = function() {
+        console.log("AUuuuu");
+    }
+}
+
+let husky = new Cachorro('Husky', 4, 'cinza');
+
+husky.uivar();
+// AUuuuu
+```
+
 190. Métodos no prototype
 
 191. Class e constructor do ES6
