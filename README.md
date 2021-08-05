@@ -3736,6 +3736,19 @@ console.log(validaDominio.test("horadecodar.com.br"));// true
 
 237. Regex na prática: validando e-mail
 
+- [Secao-13-Expressoes-Regulares/237-Regex-na-pratica-validando-e-mail.js](Secao-13-Expressoes-Regulares/237-Regex-na-pratica-validando-e-mail.js)
+
+```javascript
+const validarEmail = /\w+@\w+\.\w+/;
+
+console.log(validarEmail.test("matheus@gmail.com"));// true
+console.log(validarEmail.test("matheus@gmail"));// false
+console.log(validarEmail.test("gmail.com"));// false
+console.log(validarEmail.test("matheus@gmail.com.br"));// true
+console.log(validarEmail.test("gmail@gmail.gmail.gmail"));// true
+
+```
+
 238. Regex na prática: validando data de nascimento
 
 239. Conclusão da seção
