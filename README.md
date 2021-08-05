@@ -3722,6 +3722,18 @@ console.log(reg.test("Nome: Maria")); // true
 
 236. Regex na prática: validando domínios
 
+- [Secao-13-Expressoes-Regulares/236-Regex-na-pratica-validando-dominios.js(Secao-13-Expressoes-Regulares/236-Regex-na-pratica-validando-dominios.js)
+
+```javascript
+const validaDominio = /[?www.]\w+\.com.br|.com/;
+
+console.log(validaDominio.test("www.google.com"));// true
+console.log(validaDominio.test("www.horadecodar.com.br"));// true
+console.log(validaDominio.test("www.horadecodar"));// false
+console.log(validaDominio.test("horadecodar.com.br"));// true
+
+```
+
 237. Regex na prática: validando e-mail
 
 238. Regex na prática: validando data de nascimento
