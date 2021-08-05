@@ -3586,6 +3586,24 @@ console.log(wRegex.test("123sad"));// true
 
 228. Caracteres especiais na prática
 
+- [Secao-13-Expressoes-Regulares/228-Caracteres-especiais-na-pratica.js](Secao-13-Expressoes-Regulares/228-Caracteres-especiais-na-pratica.js)
+
+```javascript
+const dia = /\d\d/;
+
+console.log(dia.test("2019") && "2019".length == 2);// false
+console.log(dia.test("asd")); // false
+console.log(dia.test("05") && "05".length == 2);// true
+console.log(dia.test("asd1"));// false
+
+const palavrasPeloMenosTresLetras = /\w\w\w/;
+
+console.log(palavrasPeloMenosTresLetras.test("asd")); // true
+console.log(palavrasPeloMenosTresLetras.test("asdd"));// true
+console.log(palavrasPeloMenosTresLetras.test("as"));// false
+
+```
+
 229. Operador not !
 
 230. Operador plus +
