@@ -3776,6 +3776,29 @@ console.log(validarDataNasc.test('31/00/2010'));// true
 
 ## <a name="parte14">14 - Seção 14: Exercícios sobre Expressões Regulares</a>
 
+240. Introdução da seção
+
+241. Exercício 41: explicação
+
+242. Exercício 41: solução
+
+243. Exercício 42: explicação
+
+244. Exercício 42: solução
+
+245. Exercício 43: explicação
+
+246. Exercício 43: solução
+
+247. Exercício 44: explicação
+
+248. Exercício 44: solução
+
+249. Exercício 45: explicação
+
+250. Exercício 45: solução
+
+251. Conclusão da seção
 
 
 [Voltar ao Índice](#indice)
