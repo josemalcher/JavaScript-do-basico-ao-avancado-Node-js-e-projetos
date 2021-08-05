@@ -3782,21 +3782,89 @@ console.log(validarDataNasc.test('31/00/2010'));// true
 
 242. Exercício 41: solução
 
+- [Secao-14-Exercicios-sobre-Expressoes-Regulares/242-Exercicio-41.js](Secao-14-Exercicios-sobre-Expressoes-Regulares/242-Exercicio-41.js)
+
+```javascript
+const validarMaiuscula = /[A-Z]/;
+
+console.log(validarMaiuscula.test("testando"));// false
+console.log(validarMaiuscula.test("123"));// false
+console.log(validarMaiuscula.test("TESTANDO"));// true
+Secao-14-Exercicios-sobre-Expressoes-Regulares/242-Exercicio-41.js
+```
+
 243. Exercício 42: explicação
 
 244. Exercício 42: solução
+
+- [Secao-14-Exercicios-sobre-Expressoes-Regulares/244-Exercicio-42.js](Secao-14-Exercicios-sobre-Expressoes-Regulares/244-Exercicio-42.js)
+
+```javascript
+const validarId = /\d+ID\b/;
+
+console.log(validarId.test("384284ID"));// true
+console.log(validarId.test("384284"));// false
+console.log(validarId.test("asd"));// false
+console.log(validarId.test("asdasdID"));// false
+console.log(validarId.test("ID"));// false
+console.log(validarId.test("555ID"));// true
+
+```
 
 245. Exercício 43: explicação
 
 246. Exercício 43: solução
 
+- []()
+
+```javascript
+const validaMarca = /Marca: (Nike|Adidas|Puma|Asics)/;
+
+console.log(validaMarca.test("Marca: Nike"));// true
+console.log(validaMarca.test("Marca: asd"));// false
+console.log(validaMarca.test("Marca: "));// false
+console.log(validaMarca.test("Nike"));// false
+console.log(validaMarca.test("123132"));// false
+console.log(validaMarca.test("Marca: Puma")); // true
+
+```
+
 247. Exercício 44: explicação
 
 248. Exercício 44: solução
 
+- [Secao-14-Exercicios-sobre-Expressoes-Regulares/248-Exercicio-44.js](Secao-14-Exercicios-sobre-Expressoes-Regulares/248-Exercicio-44.js)
+
+```javascript
+const validarIp = /\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}/;
+
+console.log(validarIp.test("127.0.0.1")); // true
+console.log(validarIp.test("8.8.8.8")); // true
+console.log(validarIp.test("192.168.0.62")); // true
+
+console.log(validarIp.test("192.168.0")); // false
+console.log(validarIp.test("192"));// false
+console.log(validarIp.test("asdasasd"));// false
+console.log(validarIp.test("12312321"));// false
+console.log(validarIp.test("1924.1648.04.62444"));// false
+
+```
+
 249. Exercício 45: explicação
 
 250. Exercício 45: solução
+
+- [Secao-14-Exercicios-sobre-Expressoes-Regulares/250-Exercicio-45.js](Secao-14-Exercicios-sobre-Expressoes-Regulares/250-Exercicio-45.js)
+
+```javascript
+let validarNomeUsuario = /^(?=.{3,16}$)[a-z0-9-_]/;
+
+console.log(validarNomeUsuario.test("matheus_123")); // true
+
+console.log(validarNomeUsuario.test("as")); // false
+console.log(validarNomeUsuario.test("11111111111111111111111111111"));// false
+
+```
 
 251. Conclusão da seção
 
