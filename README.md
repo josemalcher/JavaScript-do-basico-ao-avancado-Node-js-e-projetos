@@ -3627,6 +3627,19 @@ console.log(nottoaz.test("asd123asdad"));// true
 
 230. Operador plus +
 
+- [Secao-13-Expressoes-Regulares/230-Operador-plus.js](Secao-13-Expressoes-Regulares/230-Operador-plus.js)
+
+```javascript
+const umOuMaisNumeros = /\d+/;
+
+console.log(umOuMaisNumeros.test("1518"));// true
+console.log(umOuMaisNumeros.test(""));// false
+console.log(umOuMaisNumeros.test("asdasdas"));// false
+console.log(umOuMaisNumeros.test("1"));// true
+console.log(umOuMaisNumeros.test("1511231231233123121323123121238"));// true
+
+```
+
 231. Operador question ?
 
 232. Operador de precisão
