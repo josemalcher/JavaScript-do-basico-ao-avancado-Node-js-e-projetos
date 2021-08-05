@@ -3679,6 +3679,19 @@ console.log(tel.test("(48)55555-4444"));// true
 
 233. Método exec
 
+- [Secao-13-Expressoes-Regulares/233-Metodo-exec.js](Secao-13-Expressoes-Regulares/233-Metodo-exec.js)
+
+```javascript
+const digitos = /\d+/;
+
+console.log(digitos.exec("Tem o número 100 aqui"));
+// [ '100', index: 13, input: 'Tem o número 100 aqui', groups: undefined ]
+
+console.log(digitos.exec("Tem o número aqui"));
+// null
+
+```
+
 234. Método match
 
 235. Choice pattern
