@@ -3709,6 +3709,17 @@ console.log(frase2);
 
 235. Choice pattern
 
+- [Secao-13-Expressoes-Regulares/235-Choice-pattern.js](Secao-13-Expressoes-Regulares/235-Choice-pattern.js)
+
+```javascript
+const reg = /\w+: (Matheus|João|Maria)/; // Nome: nadsuasudi
+
+console.log(reg.test("Nome: Matheus")); // true
+console.log(reg.test("Nome: José")); // false
+console.log(reg.test("Nome: Maria")); // true
+
+```
+
 236. Regex na prática: validando domínios
 
 237. Regex na prática: validando e-mail
