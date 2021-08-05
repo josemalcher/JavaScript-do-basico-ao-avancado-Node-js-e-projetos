@@ -3419,6 +3419,25 @@ console.log('teste');
 
 219. Finally
 
+- [Secao-12-Debugs-e-erros-no-JavaScript/219-Finally.js](Secao-12-Debugs-e-erros-no-JavaScript/219-Finally.js)
+
+```javascript
+let b = 2;
+
+try {
+    let a = 2 + b;
+} catch (e) {
+    console.log(e);
+} finally {
+    console.log("Executou");
+}
+// Executou
+
+// console.log('teste');
+
+
+```
+
 220. Assertion
 
 221. Conclusão de seção
