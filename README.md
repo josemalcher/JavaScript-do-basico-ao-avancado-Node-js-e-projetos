@@ -3489,6 +3489,41 @@ Error: O array precisa ter pelo menos um elemento
 
 ## <a name="parte13">13 - Seção 13: Expressões Regulares</a>
 
+222. Introdução da seção
+
+223. O que são expressões regulares?
+
+224. Como criar uma expressão regular
+
+225. Testando uma expressão regular
+
+226. Conjuntos
+
+227. Caracteres especiais
+
+228. Caracteres especiais na prática
+
+229. Operador not !
+
+230. Operador plus +
+
+231. Operador question ?
+
+232. Operador de precisão
+
+233. Método exec
+
+234. Método match
+
+235. Choice pattern
+
+236. Regex na prática: validando domínios
+
+237. Regex na prática: validando e-mail
+
+238. Regex na prática: validando data de nascimento
+
+239. Conclusão da seção
 
 
 [Voltar ao Índice](#indice)
