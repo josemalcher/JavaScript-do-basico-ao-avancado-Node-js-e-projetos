@@ -3876,6 +3876,29 @@ console.log(validarNomeUsuario.test("11111111111111111111111111111"));// false
 
 ## <a name="parte15">15 - Seção 15: Programação Assíncrona com JavaScript</a>
 
+252. Introdução da seção
+
+253. O que é programação assíncrona?
+
+254. Utilizando callbacks
+
+255. Aprendendendo a utilizar Promises
+
+256. Falha nas Promises
+
+257. Rejeitando Promises
+
+258. Resolvendo várias Promises
+
+259. Funções assíncronas
+
+260. Utilizando await
+
+261. Generators
+
+262. Conclusão da seção
+
+Teste 6: Questionário sobre programação assíncrona
 
 
 [Voltar ao Índice](#indice)
