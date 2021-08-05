@@ -3396,6 +3396,27 @@ console.log("teste");
 
 218. Try e Catch
 
+- [Secao-12-Debugs-e-erros-no-JavaScript/218-Try-e-Catch.js](Secao-12-Debugs-e-erros-no-JavaScript/218-Try-e-Catch.js)
+
+```javascript
+// let b = 2;
+
+try {
+
+    let a = 2 + b;
+
+} catch(e) {
+
+    console.log(e);
+    //throw new Error(e);
+
+}
+// ReferenceError: b is not defined
+
+console.log('teste');
+// teste
+```
+
 219. Finally
 
 220. Assertion
