@@ -3314,6 +3314,41 @@ console.log(a); // 434
 
 215. Forma de debug: debugger
 
+- [Secao-12-Debugs-e-erros-no-JavaScript/215-Forma-de-debug-debugger.js](Secao-12-Debugs-e-erros-no-JavaScript/215-Forma-de-debug-debugger.js)
+
+```javascript
+let a = 1;
+let b = 2;
+let c = 3;
+
+if(c > a) {
+    a = b;
+    debugger;
+}
+
+for(let i = 5; i > 0; i--) {
+    b++;
+    a = a + c + 1;
+    c += 2;
+    debugger;
+}
+
+if(b == a) {
+    a++;
+} else {
+    a = a + b + c;
+}
+
+debugger;
+
+a = a * b;
+
+debugger;
+
+console.log('teste');
+
+```
+
 216. Tratamento de input por função
 
 217. Exception
