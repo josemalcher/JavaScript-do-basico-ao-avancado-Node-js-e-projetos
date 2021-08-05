@@ -3520,6 +3520,23 @@ console.log(/quadrado/.test("3423442323434quadrado2342323424332"));// true
 
 226. Conjuntos
 
+- [Secao-13-Expressoes-Regulares/226-Conjuntos.js](Secao-13-Expressoes-Regulares/226-Conjuntos.js)
+
+```javascript
+const reg1 = /[12345]/;
+
+console.log(reg1.test("Temos o número 6"));// false
+console.log(reg1.test("Temos o número 2"));// true
+console.log(reg1.test("Temos o número 23"));// true
+console.log(reg1.test("Temos o número 60"));// false
+
+const reg2 = /[0-9]/;
+
+console.log(reg1.test("Temos o número 65448484884848484"));// true
+console.log(reg1.test("Temos o número"));// false
+
+```
+
 227. Caracteres especiais
 
 228. Caracteres especiais na prática
