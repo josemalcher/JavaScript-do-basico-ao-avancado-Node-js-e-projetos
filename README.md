@@ -3249,6 +3249,27 @@ console.log(conta2);
 
 213. Strict mode
 
+- [Secao-12-Debugs-e-erros-no-JavaScript/213-Strict-mode.js](Secao-12-Debugs-e-erros-no-JavaScript/213-Strict-mode.js)
+
+```javascript
+"use strict"
+
+let opa = 'teste';
+
+// delete Object.prototype;
+
+function teste() {
+    "use strict"
+    let testando = 'teste';
+}
+
+teste();
+
+// false.prop = "";
+// "teste".prop = "";
+
+```
+
 214. Forma de debug: console.log
 
 215. Forma de debug: debugger
