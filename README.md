@@ -3694,6 +3694,19 @@ console.log(digitos.exec("Tem o número aqui"));
 
 234. Método match
 
+- [Secao-13-Expressoes-Regulares/234-Metodo-match.js](Secao-13-Expressoes-Regulares/234-Metodo-match.js)
+
+```javascript
+const frase = "O número 100 está aqui".match(/\d+/);
+const frase2 = "O número está aqui".match(/\d+/);
+
+console.log(frase);
+// [ '100', index: 9, input: 'O número 100 está aqui', groups: undefined ]
+
+console.log(frase2);
+// null
+```
+
 235. Choice pattern
 
 236. Regex na prática: validando domínios
