@@ -3642,6 +3642,22 @@ console.log(umOuMaisNumeros.test("1511231231233123121323123121238"));// true
 
 231. Operador question ?
 
+- [Secao-13-Expressoes-Regulares/231-Operador-question.js](Secao-13-Expressoes-Regulares/231-Operador-question.js)
+
+```javascript
+const padrao = /Abacax?i/;
+
+console.log(padrao.test("Abacaxi"));// true
+console.log(padrao.test("Abacai"));// true
+
+const padrao2 = /\d+\w?/;
+
+console.log(padrao2.test("123"));// true
+console.log(padrao2.test("123a"));// true
+console.log(padrao2.test("123 "));// true
+
+```
+
 232. Operador de precisão
 
 233. Método exec
