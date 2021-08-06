@@ -3993,6 +3993,22 @@ Promise.all([p1, p2, p3]).then((values) => console.log(values));
 
 259. Funções assíncronas
 
+- [Secao-15-Programacao-Assincrona-com-JavaScript/259-Funcoes-assincronas.js](Secao-15-Programacao-Assincrona-com-JavaScript/259-Funcoes-assincronas.js)
+
+```javascript
+async function somar(a, b) {
+    return a + b;
+}
+
+console.log(somar(5, 10));// Promise { 15 }
+
+
+somar(10,20).then(value => {
+    console.log(value);
+})
+//30
+```
+
 260. Utilizando await
 
 261. Generators
