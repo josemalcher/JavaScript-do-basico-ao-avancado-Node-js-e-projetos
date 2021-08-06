@@ -3882,6 +3882,29 @@ console.log(validarNomeUsuario.test("11111111111111111111111111111"));// false
 
 254. Utilizando callbacks
 
+- [Secao-15-Programacao-Assincrona-com-JavaScript/254-Utilizando-callbacks.js](Secao-15-Programacao-Assincrona-com-JavaScript/254-Utilizando-callbacks.js)
+
+```javascript
+console.log("1");
+
+setTimeout(function() {
+    console.log("5");
+}, 2000);
+
+console.log("2");
+console.log("3");
+console.log("4");
+
+/*
+1
+2
+3
+4
+5
+*/
+
+```
+
 255. Aprendendendo a utilizar Promises
 
 256. Falha nas Promises
