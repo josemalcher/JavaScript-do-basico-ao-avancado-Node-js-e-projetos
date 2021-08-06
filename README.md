@@ -4114,6 +4114,8 @@ Teste 6: Questionário sobre programação assíncrona
 
 274. Encontrando elementos pela tag
 
+- [Secao-16-JavaScript-e-o-navegador/274-Encontrando-elementos-pela-tag](Secao-16-JavaScript-e-o-navegador/274-Encontrando-elementos-pela-tag)
+
 275. Encontrando elementos por id
 
 276. Encontrando elementos pela classe
