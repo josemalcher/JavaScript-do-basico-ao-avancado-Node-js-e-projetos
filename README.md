@@ -4096,6 +4096,8 @@ Teste 6: Questionário sobre programação assíncrona
 
 268. O HTML e o JavaScript
 
+- [Secao-16-JavaScript-e-o-navegador/268-O-HTML-e-o-JavaScript](Secao-16-JavaScript-e-o-navegador/268-O-HTML-e-o-JavaScript)
+
 269. O HTML e o DOM
 
 270. Entendendo o DOM
