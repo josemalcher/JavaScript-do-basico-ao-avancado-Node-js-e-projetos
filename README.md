@@ -3925,6 +3925,25 @@ p.then(value => value + 5)
 
 256. Falha nas Promises
 
+- [Secao-15-Programacao-Assincrona-com-JavaScript/256-Falha-nas-Promises.js](Secao-15-Programacao-Assincrona-com-JavaScript/256-Falha-nas-Promises.js)
+
+```javascript
+let p = Promise.resolve(new Error('Não deu certo'));
+
+console.log('okokko');
+
+p.then(valur => {
+    console.log(valur)
+}).catch(reason => {
+    console.log('falhou ' + reason);
+})
+/*
+okokko
+Error: Não deu certo
+*/
+
+```
+
 257. Rejeitando Promises
 
 258. Resolvendo várias Promises
