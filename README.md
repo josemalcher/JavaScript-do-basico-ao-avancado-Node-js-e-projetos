@@ -3907,6 +3907,22 @@ console.log("4");
 
 255. Aprendendendo a utilizar Promises
 
+- [Secao-15-Programacao-Assincrona-com-JavaScript/255-Aprendendendo-a-utilizar-Promises.js](Secao-15-Programacao-Assincrona-com-JavaScript/255-Aprendendendo-a-utilizar-Promises.js)
+
+```javascript
+let p = Promise.resolve(5);
+
+console.log(p); // Promise { 5 }
+
+
+p.then(value => value + 5)
+    .then(value => {
+        console.log(value)
+    });
+
+// 10
+```
+
 256. Falha nas Promises
 
 257. Rejeitando Promises
