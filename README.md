@@ -4122,6 +4122,8 @@ Teste 6: Questionário sobre programação assíncrona
 
 276. Encontrando elementos pela classe
 
+- [Secao-16-JavaScript-e-o-navegador/276-Encontrando-elementos-pela-classe](Secao-16-JavaScript-e-o-navegador/276-Encontrando-elementos-pela-classe)
+
 277. Encontrando elementos por query
 
 278. Alterando o HTML
