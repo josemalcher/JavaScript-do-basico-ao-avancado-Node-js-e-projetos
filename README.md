@@ -3971,6 +3971,26 @@ O numero é 2
 
 258. Resolvendo várias Promises
 
+- [Secao-15-Programacao-Assincrona-com-JavaScript/258-Resolvendo-varias-Promises.js](Secao-15-Programacao-Assincrona-com-JavaScript/258-Resolvendo-varias-Promises.js)
+
+```javascript
+const p1 = new Promise(function (resolve, reject) {
+    setTimeout(function () {
+        resolve(15);
+    }, 5000);
+});
+
+const p2 = Promise.resolve(10);
+
+const p3 = new Promise((resolve, reject) => {
+    resolve(12);
+});
+
+Promise.all([p1, p2, p3]).then((values) => console.log(values));
+
+// [ 15, 10, 12 ]
+```
+
 259. Funções assíncronas
 
 260. Utilizando await
