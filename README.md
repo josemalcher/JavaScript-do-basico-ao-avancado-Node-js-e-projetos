@@ -4038,6 +4038,40 @@ resSoma(1, 2, 3).then(value => {
 
 261. Generators
 
+- [Secao-15-Programacao-Assincrona-com-JavaScript/261-Generators.js](Secao-15-Programacao-Assincrona-com-JavaScript/261-Generators.js)
+
+```javascript
+function* criadorId() {
+    let id = 0;
+    while(true) {
+        yield id++;
+    }
+}
+
+let criaId = criadorId();
+
+console.log(criaId.next().value);
+console.log(criaId.next().value);
+console.log(criaId.next().value);
+console.log(criaId.next().value);
+console.log(criaId.next().value);
+console.log(criaId.next().value);
+console.log(criaId.next().value);
+
+console.log(criaId.next());
+/*
+0
+1
+2
+3
+4
+5
+6
+{ value: 7, done: false }
+*/
+
+```
+
 262. Conclusão da seção
 
 Teste 6: Questionário sobre programação assíncrona
