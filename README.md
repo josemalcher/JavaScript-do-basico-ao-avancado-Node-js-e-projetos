@@ -4084,6 +4084,61 @@ Teste 6: Questionário sobre programação assíncrona
 
 ## <a name="parte16">16 - Seção 16: JavaScript e o navegador</a>
 
+263. Introdução da seção
+
+264. Ententendo protocolos
+
+265. O que é uma URL?
+
+266. Entendendo o HTML
+
+267. A estrutura do HTML
+
+268. O HTML e o JavaScript
+
+269. O HTML e o DOM
+
+270. Entendendo o DOM
+
+271. A árvore do DOM
+
+272. Acessando elementos/tags
+
+273. Encontrando elementos teoria
+
+274. Encontrando elementos pela tag
+
+275. Encontrando elementos por id
+
+276. Encontrando elementos pela classe
+
+277. Encontrando elementos por query
+
+278. Alterando o HTML
+
+279. Inserindo elementos com insertBefore
+
+280. Inserindo elementos com appendChild
+
+281. Trocando elementos com replaceChild
+
+282. Inserindo texto nos elementos
+
+283. Criando elementos
+
+284. Manipulando atributos de elementos
+
+285. Largura e altura dos elementos
+
+286. Posições dos elementos
+
+287. Alterando CSS com JS
+
+288. Selecionando vários elementos com query
+
+289. Conclusão da seção
+
+Teste 7: Questionário sobre DOM
 
 
 [Voltar ao Índice](#indice)
