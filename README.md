@@ -4118,6 +4118,8 @@ Teste 6: Questionário sobre programação assíncrona
 
 275. Encontrando elementos por id
 
+- [Secao-16-JavaScript-e-o-navegador/275-Encontrando-elementos-por-id](Secao-16-JavaScript-e-o-navegador/275-Encontrando-elementos-por-id)
+
 276. Encontrando elementos pela classe
 
 277. Encontrando elementos por query
