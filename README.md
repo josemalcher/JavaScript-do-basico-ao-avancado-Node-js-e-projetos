@@ -4108,6 +4108,8 @@ Teste 6: Questionário sobre programação assíncrona
 
 272. Acessando elementos/tags
 
+- [Secao-16-JavaScript-e-o-navegador/272-Acessando-elementos-tags](Secao-16-JavaScript-e-o-navegador/272-Acessando-elementos-tags)
+
 273. Encontrando elementos teoria
 
 274. Encontrando elementos pela tag
