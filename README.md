@@ -4102,6 +4102,8 @@ Teste 6: Questionário sobre programação assíncrona
 
 270. Entendendo o DOM
 
+- [Secao-16-JavaScript-e-o-navegador/270-Entendendo-o-DOM](Secao-16-JavaScript-e-o-navegador/270-Entendendo-o-DOM)
+
 271. A árvore do DOM
 
 272. Acessando elementos/tags
