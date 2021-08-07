@@ -4210,6 +4210,21 @@ elementoPai.insertBefore(novoElemento, elementoAlgo);
 
 280. Inserindo elementos com appendChild
 
+- [Secao-16-JavaScript-e-o-navegador/280-Inserindo-elementos-com-appendChild](Secao-16-JavaScript-e-o-navegador/280-Inserindo-elementos-com-appendChild)
+
+```javascript
+let novoElemento = document.createElement('p');
+let texto = document.createTextNode('Texto do ELemento Criado');
+
+novoElemento.appendChild(texto);
+
+let p   = document.querySelector('#paragrafo-principal');
+let pai = p.parentNode;
+
+pai.appendChild(novoElemento);
+
+```
+
 281. Trocando elementos com replaceChild
 
 282. Inserindo texto nos elementos
