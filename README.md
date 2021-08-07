@@ -4110,27 +4110,103 @@ Teste 6: Questionário sobre programação assíncrona
 
 - [Secao-16-JavaScript-e-o-navegador/272-Acessando-elementos-tags](Secao-16-JavaScript-e-o-navegador/272-Acessando-elementos-tags)
 
+```javascript
+console.log(document.body);
+//
+console.log(document.body.childNodes[1]);
+
+console.log(document.body.childNodes[1].childNodes);
+// {
+//     "0": {},
+//     "1": {},
+//     "2": {},
+//     "3": {},
+//     "4": {},
+//     "5": {},
+//     "6": {}
+// }
+console.log(document.body.childNodes[1].childNodes[1]);
+// <h1>Algum título</h1>
+console.log(document.body.childNodes[1].childNodes[1].innerText);
+// Algum título
+
+```
+
 273. Encontrando elementos teoria
 
 274. Encontrando elementos pela tag
 
 - [Secao-16-JavaScript-e-o-navegador/274-Encontrando-elementos-pela-tag](Secao-16-JavaScript-e-o-navegador/274-Encontrando-elementos-pela-tag)
 
+```javascript
+console.log(document.getElementsByTagName('h1'));
+
+console.log(document.getElementsByTagName('p'));
+
+console.log(document.getElementsByTagName('li'));
+
+```
+
 275. Encontrando elementos por id
 
 - [Secao-16-JavaScript-e-o-navegador/275-Encontrando-elementos-por-id](Secao-16-JavaScript-e-o-navegador/275-Encontrando-elementos-por-id)
+
+```javascript
+console.log(document.getElementsByTagName('h1'));
+
+console.log(document.getElementById('titulo-principal'));
+
+```
 
 276. Encontrando elementos pela classe
 
 - [Secao-16-JavaScript-e-o-navegador/276-Encontrando-elementos-pela-classe](Secao-16-JavaScript-e-o-navegador/276-Encontrando-elementos-pela-classe)
 
+```javascript
+console.log(document.getElementsByTagName('li'));
+
+console.log(document.getElementsByClassName('itens-azuis'));
+
+console.log(document.getElementsByClassName('itens-vermelhos'));
+
+console.log(document.getElementsByClassName('itens'));
+
+```
+
 277. Encontrando elementos por query
 
 - [Secao-16-JavaScript-e-o-navegador/277-Encontrando-elementos-por-query](Secao-16-JavaScript-e-o-navegador/277-Encontrando-elementos-por-query)
 
+```javascript
+console.log(document.querySelector('#container-principal h1'));
+
+console.log(document.querySelector('#segundo-container h1'));
+
+console.log(document.querySelector('div div p'));
+
+console.log(document.querySelector('footer h2'));
+
+console.log(document.querySelector('ul .itens-azuis'));
+
+```
+
 278. Alterando o HTML
 
 279. Inserindo elementos com insertBefore
+
+- [Secao-16-JavaScript-e-o-navegador/279-Inserindo-elementos-com-insertBefore](Secao-16-JavaScript-e-o-navegador/279-Inserindo-elementos-com-insertBefore)
+
+```javascript
+let novoElemento = document.createElement('p');
+let texto = document.createTextNode('Texto do ELemento Criado');
+
+novoElemento.appendChild(texto);
+
+let elementoAlgo = document.querySelector('#titulo-principal')
+let elementoPai  = document.querySelector('#container-principal')
+
+elementoPai.insertBefore(novoElemento, elementoAlgo);
+```
 
 280. Inserindo elementos com appendChild
 
