@@ -4244,6 +4244,17 @@ paiHeading.replaceChild(novoElemento, heading);
 
 282. Inserindo texto nos elementos
 
+- [Secao-16-JavaScript-e-o-navegador/282-Inserindo-texto-nos-elementos](Secao-16-JavaScript-e-o-navegador/282-Inserindo-texto-nos-elementos)
+
+```javascript
+let pSemTexto = document.getElementById("sem-texto");
+
+let texto = document.createTextNode("Inserir este texto");
+
+pSemTexto.appendChild(texto);
+
+```
+
 283. Criando elementos
 
 284. Manipulando atributos de elementos
