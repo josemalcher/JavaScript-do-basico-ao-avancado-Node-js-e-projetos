@@ -4126,6 +4126,8 @@ Teste 6: Questionário sobre programação assíncrona
 
 277. Encontrando elementos por query
 
+- [Secao-16-JavaScript-e-o-navegador/277-Encontrando-elementos-por-query](Secao-16-JavaScript-e-o-navegador/277-Encontrando-elementos-por-query)
+
 278. Alterando o HTML
 
 279. Inserindo elementos com insertBefore
