@@ -4282,6 +4282,21 @@ container.appendChild(lista);
 
 284. Manipulando atributos de elementos
 
+- [Secao-16-JavaScript-e-o-navegador/284-Manipulando-atributos-de-elementos](Secao-16-JavaScript-e-o-navegador/284-Manipulando-atributos-de-elementos)
+
+```javascript
+let a = document.querySelector("footer a");
+
+console.log(a.getAttribute('href'));
+
+let link = 'https://www.josemalcher.net';
+
+a.setAttribute('href', link);
+
+console.log(a.getAttribute('href'));
+
+```
+
 285. Largura e altura dos elementos
 
 286. Posições dos elementos
