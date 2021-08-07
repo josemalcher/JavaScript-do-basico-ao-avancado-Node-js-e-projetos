@@ -4257,6 +4257,29 @@ pSemTexto.appendChild(texto);
 
 283. Criando elementos
 
+- [Secao-16-JavaScript-e-o-navegador/283-Criando-elementos](Secao-16-JavaScript-e-o-navegador/283-Criando-elementos)
+
+```javascript
+let lista = document.createElement('ul');
+
+for (let i = 0; i < 5; i++) {
+
+    let item = document.createElement('li');
+
+    let texto = document.createTextNode("Texto Criado no JS " + i);
+
+    item.appendChild(texto);
+
+    lista.appendChild(item);
+
+}
+
+let container = document.getElementById('container-principal');
+
+container.appendChild(lista);
+
+```
+
 284. Manipulando atributos de elementos
 
 285. Largura e altura dos elementos
