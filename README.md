@@ -4227,6 +4227,21 @@ pai.appendChild(novoElemento);
 
 281. Trocando elementos com replaceChild
 
+- [Secao-16-JavaScript-e-o-navegador/281-Trocando-elementos-com-replaceChild](Secao-16-JavaScript-e-o-navegador/281-Trocando-elementos-com-replaceChild)
+
+```javascript
+let novoElemento = document.createElement('p');
+let texto = document.createTextNode('Texto do ELemento Novo adicionado');
+
+novoElemento.appendChild(texto);
+
+let heading = document.querySelector('#titulo-principal');
+let paiHeading = heading.parentNode;
+
+paiHeading.replaceChild(novoElemento, heading);
+
+```
+
 282. Inserindo texto nos elementos
 
 283. Criando elementos
