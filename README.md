@@ -4369,6 +4369,35 @@ Teste 7: Questionário sobre DOM
 
 ## <a name="parte17">17 - Seção 17: Eventos com JavaScript</a>
 
+290. Introdução da seção
+
+291. O que são eventos?
+
+292. Criando um evento
+
+293. Removendo eventos
+
+294. Objeto dos eventos
+
+295. Entendendo propagation
+
+296. Prevent default
+
+297. Eventos por tecla
+
+298. Mais sobre eventos do mouse
+
+299. Movimentos do mouse
+
+300. Eventos de scroll
+
+301. Eventos de foco
+
+302. Eventos de page load
+
+303. Debounce
+
+304. Conclusão da seção
 
 
 [Voltar ao Índice](#indice)
