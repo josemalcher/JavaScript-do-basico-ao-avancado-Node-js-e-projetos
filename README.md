@@ -4314,6 +4314,15 @@ console.log('altura: ' + elemento.clientHeight);
 
 286. Posições dos elementos
 
+- [Secao-16-JavaScript-e-o-navegador/286-Posicoes-dos-elementos](Secao-16-JavaScript-e-o-navegador/286-Posicoes-dos-elementos)
+
+```javascript
+let elemento = document.querySelector('#titulo-principal');
+
+console.log(elemento.getBoundingClientRect());
+
+```
+
 287. Alterando CSS com JS
 
 288. Selecionando vários elementos com query
