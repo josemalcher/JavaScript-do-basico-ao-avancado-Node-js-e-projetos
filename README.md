@@ -4325,6 +4325,19 @@ console.log(elemento.getBoundingClientRect());
 
 287. Alterando CSS com JS
 
+- [Secao-16-JavaScript-e-o-navegador/287-Alterando-CSS-com-JS](Secao-16-JavaScript-e-o-navegador/287-Alterando-CSS-com-JS)
+
+```javascript
+let elemento = document.querySelector('#titulo-principal');
+
+setTimeout(function() {
+    elemento.style.color = 'red';
+    elemento.style.backgroundColor = 'yellow';
+    elemento.style.width = '400px';
+}, 1000);
+
+```
+
 288. Selecionando vários elementos com query
 
 289. Conclusão da seção
