@@ -4299,6 +4299,19 @@ console.log(a.getAttribute('href'));
 
 285. Largura e altura dos elementos
 
+- [Secao-16-JavaScript-e-o-navegador/285-Largura-e-altura-dos-elementos](Secao-16-JavaScript-e-o-navegador/285-Largura-e-altura-dos-elementos)
+
+```javascript
+let elemento = document.querySelector('#titulo-principal');
+
+console.log('largura: ' + elemento.offsetWidth); // considera as bordas
+console.log('altura: ' + elemento.offsetHeight);
+
+console.log('largura: ' + elemento.clientWidth); // não considera as bordas
+console.log('altura: ' + elemento.clientHeight);
+
+```
+
 286. Posições dos elementos
 
 287. Alterando CSS com JS
