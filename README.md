@@ -4340,6 +4340,23 @@ setTimeout(function() {
 
 288. Selecionando vários elementos com query
 
+- [Secao-16-JavaScript-e-o-navegador/288-Selecionando-varios-elementos-com-query](Secao-16-JavaScript-e-o-navegador/288-Selecionando-varios-elementos-com-query)
+
+```javascript
+let itens = document.querySelectorAll('.itens-vermelhos');
+
+console.log(itens[0].style.color);
+
+itens[0].style.color = 'red';
+
+console.log(itens[0].style.color);
+
+let itens2 = document.querySelectorAll('.itens-azuis');
+
+console.log(itens2);
+
+```
+
 289. Conclusão da seção
 
 Teste 7: Questionário sobre DOM
