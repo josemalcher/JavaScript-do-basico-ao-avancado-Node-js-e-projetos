@@ -4375,6 +4375,17 @@ Teste 7: Questionário sobre DOM
 
 292. Criando um evento
 
+- [Secao-17-Eventos-com-JavaScript/292-Criando-um-evento](Secao-17-Eventos-com-JavaScript/292-Criando-um-evento)
+
+```javascript
+let btn = document.querySelector("button")
+
+btn.addEventListener("click", () => {
+    console.log('clicou no Button');
+})
+
+```
+
 293. Removendo eventos
 
 294. Objeto dos eventos
