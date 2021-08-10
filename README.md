@@ -4556,6 +4556,19 @@ window.addEventListener("mousemove", function(e) {
 
 300. Eventos de scroll
 
+- [Secao-17-Eventos-com-JavaScript/300-Eventos-de-scroll](Secao-17-Eventos-com-JavaScript/300-Eventos-de-scroll)
+
+```javascript
+window.addEventListener("scroll", function(e) {
+
+    if(window.pageYOffset > 1000) {
+        console.log("Ativou");
+    }
+
+});
+
+```
+
 301. Eventos de foco
 
 302. Eventos de page load
