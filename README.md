@@ -4490,6 +4490,27 @@ a.addEventListener("click", function(e) {
 
 297. Eventos por tecla
 
+- [Secao-17-Eventos-com-JavaScript/297-Eventos-por-tecla](Secao-17-Eventos-com-JavaScript/297-Eventos-por-tecla)
+
+```javascript
+window.addEventListener("keydown", function(e) {
+
+    if(e.key == 'q') {
+        console.log("Apertou a letra q");
+    }
+
+});
+
+window.addEventListener("keyup", function(e) {
+
+    if(e.key == "Enter") {
+        console.log("Soltou o enter");
+    }
+
+});
+
+```
+
 298. Mais sobre eventos do mouse
 
 299. Movimentos do mouse
