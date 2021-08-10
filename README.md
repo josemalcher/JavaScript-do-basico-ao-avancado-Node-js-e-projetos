@@ -4542,6 +4542,18 @@ btn2.addEventListener("contextmenu", function(e) {
 
 299. Movimentos do mouse
 
+- [Secao-17-Eventos-com-JavaScript/299-Movimentos-do-mouse](Secao-17-Eventos-com-JavaScript/299-Movimentos-do-mouse)
+
+```javascript
+window.addEventListener("mousemove", function(e) {
+
+    console.log(e.x);
+    console.log(e.y);
+
+});
+
+```
+
 300. Eventos de scroll
 
 301. Eventos de foco
