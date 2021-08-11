@@ -4631,6 +4631,24 @@ window.addEventListener("mousemove", function(e) {
 
 ## <a name="parte18">18 - Seção 18: Projeto 1: Jogo da Velha (HTML, CSS, DOM e eventos)</a>
 
+305. Introdução do projeto
+
+306. Estruturando o projeto
+
+307. Criando o HTML
+
+308. Finalizando o CSS
+
+309. Criando a lógica do jogo
+
+310. Lógica da condição de vitória
+
+311. Declarando quem foi o vencedor
+
+312. Fazendo a IA jogar
+
+313. Conclusão do projeto
+
 
 
 [Voltar ao Índice](#indice)
