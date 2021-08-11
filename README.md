@@ -4571,6 +4571,25 @@ window.addEventListener("scroll", function(e) {
 
 301. Eventos de foco
 
+- [Secao-17-Eventos-com-JavaScript/301-Eventos-de-foco](Secao-17-Eventos-com-JavaScript/301-Eventos-de-foco)
+
+```javascript
+let input = document.querySelector("#input1");
+
+input.addEventListener("focus", function() {
+
+    console.log("Entrou no input");
+
+});
+
+input.addEventListener("blur", function() {
+
+    console.log("Saiu do input");
+
+});
+
+```
+
 302. Eventos de page load
 
 303. Debounce
