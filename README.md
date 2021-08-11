@@ -4592,6 +4592,19 @@ input.addEventListener("blur", function() {
 
 302. Eventos de page load
 
+- [Secao-17-Eventos-com-JavaScript/302-Eventos-de-page-load](Secao-17-Eventos-com-JavaScript/302-Eventos-de-page-load)
+
+```javascript
+// window.addEventListener("load", function() {
+//   alert("Assine os nossos termos de uso");
+// });
+
+window.addEventListener("beforeunload", function(e) {
+    e.returnValue = null;
+});
+
+```
+
 303. Debounce
 
 304. Conclusão da seção
