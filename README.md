@@ -4607,6 +4607,20 @@ window.addEventListener("beforeunload", function(e) {
 
 303. Debounce
 
+- [Secao-17-Eventos-com-JavaScript/303-Debounce](Secao-17-Eventos-com-JavaScript/303-Debounce)
+
+```javascript
+let timeout;
+
+window.addEventListener("mousemove", function(e) {
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+        console.log(e.x);
+    }, 500);
+});
+
+```
+
 304. Conclusão da seção
 
 
